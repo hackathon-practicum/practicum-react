@@ -1,3 +1,12 @@
+# Проект: Hackathon Design & Web
+
+[Ссылка на сайт](https://github.com/hackathon-practicum/practicum-react)
+
+### Использовано:
+
+- React.js
+- Будет дополнено
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
