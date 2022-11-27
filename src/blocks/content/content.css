@@ -1,5 +1,6 @@
 .content {
-    display: grid;
-    flex-shrink: 0;
-    grid-row-gap: 100px;
+  display: grid;
+  flex-shrink: 0;
+  grid-row-gap: 100px;
+  background-color: #F9F9F9;
 }
