@@ -1,0 +1,6 @@
+.footer__info {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

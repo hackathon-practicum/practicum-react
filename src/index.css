@@ -19,3 +19,13 @@
 @import url('./blocks/content/content.css');
 @import url('./blocks/page/__content/page__content.css');
 @import url('./blocks/content/__section/content__section.css');
+
+@import url('../src/blocks/footer/footer.css');
+@import url('../src/blocks/footer/__number/footer__number.css');
+@import url('../src/blocks/footer/__number/_text/footer__number_text.css');
+@import url('../src/blocks/footer/__number/_phone/footer__number_phone.css');
+@import url('../src/blocks/footer/__copyright/footer__copyright.css');
+@import url('../src/blocks/footer/__list/footer__list.css');
+@import url('../src/blocks/footer/__link/footer__link.css');
+@import url('../src/blocks/footer/__info/footer__info.css');
+@import url('../src/blocks/footer/__paragraph/footer__paragraph.css');
