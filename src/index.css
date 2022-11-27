@@ -1,4 +1,7 @@
+/* normalize.css */
 @import url('../src/vendor/normalize.css');
+/* шрифт */
+@import url('../src/vendor/fonts/YS/ysfont.css');
 
 @import url('./blocks/page/page.css');
 @import url('./blocks/page/__container/page__container.css');
