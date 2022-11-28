@@ -43,6 +43,9 @@
 @import url('./blocks/roadmap/__text/roadmap__text.css');
 @import url('./blocks/roadmap/__button/roadmap__button.css');
 
+@import url('./blocks/section-chatbot/section-chatbot.css');
+@import url('./blocks/section-chatbot/__window/section-chatbot__window.css');
+
 @import url('./blocks/card-vacancies/card-vacancies.css');
 @import url('./blocks/card-vacancies/__title/card-vacancies__title.css');
 @import url('./blocks/card-vacancies/__job/card-vacancies__job.css');

@@ -12,9 +12,9 @@ export default function Footer() {
         <ul className="footer__list">
           <li><NavLink to="#" className="footer__link">Помощь</NavLink></li>
           <li><NavLink to="#" className="footer__link">Вакансии</NavLink></li>
-          <li><NavLink to="#" className="footer__link">Правовая информация</NavLink></li>
           <li><NavLink to="#" className="footer__link">Отзывы</NavLink></li>
           <li><NavLink to="#" className="footer__link">Лицензия</NavLink></li>
+          <li><NavLink to="#" className="footer__link">Правовая информация</NavLink></li>
           <li><NavLink to="#" className="footer__link">Для работодателей</NavLink></li>
         </ul>
       </nav>
