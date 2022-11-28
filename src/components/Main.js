@@ -7,21 +7,19 @@ import Vakancies from "./Vakancies";
 import Faq from "./Faq";
 import Comments from "./Comments";
 import Contacts from "./Contacts";
-import Carousel from "./Carousel";
 
 export default function Main() {
     return (
         <main className="content page__content">
-            {/*<MainInfo />*/}
-            {/*<Description />*/}
-            <Carousel />
-            {/*<Faculties />*/}
-            {/*<Roadmap />*/}
-            {/*<Chatbot />*/}
-            {/*<Vakancies />*/}
-            {/*<Faq />*/}
-            {/*<Comments />*/}
-            {/*<Contacts />*/}
+            <MainInfo />
+            <Description />
+            <Faculties />
+            <Roadmap />
+            <Chatbot />
+            <Vakancies />
+            <Faq />
+            <Comments />
+            <Contacts />
         </main>
     )
 }
