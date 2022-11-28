@@ -22,7 +22,7 @@ export default function Description() {
                 />
             </ul>
 
-            <ul className="description__cards-container description__cards-container_type_mobile">
+            <div className="description__cards-container description__cards-container_type_mobile">
                 <Swiper
                     slidesPerView={"auto"}
                     spaceBetween={20}
@@ -54,7 +54,7 @@ export default function Description() {
                         />
                     </SwiperSlide>
                 </Swiper>
-            </ul>
+            </div>
         </section>
     )
 }

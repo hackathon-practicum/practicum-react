@@ -85,3 +85,9 @@
 @import url('./blocks/description/__subtitle/description__subtitle.css');
 @import url('./blocks/description/__text/description__text.css');
 @import url('./blocks/description/__swiper/description__swiper.css');
+
+@import url('./blocks/faculties/faculties.css');
+@import url('./blocks/faculties/__cards-container/faculties__cards-container.css');
+@import url('./blocks/faculties/__card/faculties__card.css');
+@import url('./blocks/faculties/__subtitle/faculties__subtitle.css');
+@import url('./blocks/faculties/__card-image/faculties__card-image.css');
