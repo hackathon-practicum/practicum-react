@@ -50,6 +50,11 @@
 @import url('./blocks/section-chatbot/__admin-avatar/section-chatbot__admin-avatar.css');
 @import url('./blocks/section-chatbot/__admin/section-chatbot__admin.css');
 @import url('./blocks/section-chatbot/__admin-question/section-chatbot__admin-question.css');
+@import url('./blocks/section-chatbot/__user/section-chatbot__user.css');
+@import url('./blocks/section-chatbot/__uset-avatar/section-chatbot__user-avatar.css');
+@import url('./blocks/section-chatbot/__user-answer/section-chatbot__user-answer.css');
+@import url('./blocks/section-chatbot/__answer-options/section-chatbot__answer-options.css');
+@import url('./blocks/section-chatbot/__button/section-chatbot__button.css');
 
 @import url('./blocks/card-vacancies/card-vacancies.css');
 @import url('./blocks/card-vacancies/__title/card-vacancies__title.css');
