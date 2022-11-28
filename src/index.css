@@ -63,6 +63,7 @@
 
 @import url('./blocks/swiper/swiper.css');
 
+@import url('./blocks/description/description.css');
 @import url('./blocks/description/__cards-container/description__cards-container.css');
 @import url(./blocks/description/__cards-container/_type/description__cards-container_type_desktop.css);
 @import url(./blocks/description/__cards-container/_type/description__cards-container_type_mobile.css);
