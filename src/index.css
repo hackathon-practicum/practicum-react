@@ -1,4 +1,5 @@
 /* normalize.css */
+
 @import url('./vendor/normalize.css');
 /* шрифт */
 @import url('./vendor/fonts/YS/ysfont.css');
@@ -81,3 +82,4 @@
 @import url('./blocks/description/__subtitle/description__subtitle.css');
 @import url('./blocks/description/__text/description__text.css');
 @import url('./blocks/description/__swiper/description__swiper.css');
+
