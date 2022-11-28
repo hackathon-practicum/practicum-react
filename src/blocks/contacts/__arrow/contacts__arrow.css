@@ -1,0 +1,50 @@
+.contacts__arrow {
+  width: 25px;
+  height: 45px;
+  opacity: 0;
+  animation: slide 3s linear 1s infinite;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-5vw);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateX(-3vw);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateX(-1vw);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(1vw);
+  }
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-5vw);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateX(-3vw);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateX(-1vw);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(1vw);
+  }
+}

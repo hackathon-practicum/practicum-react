@@ -3,10 +3,13 @@ import Description from "./Description";
 import Faculties from "./Faculties";
 import Roadmap from "./Roadmap";
 import Chatbot from "./Chatbot";
-import Vakancies from "./Vakancies";
+import Vacancies from "./Vacancies";
 import Faq from "./Faq";
 import Comments from "./Comments";
 import Contacts from "./Contacts";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/navigation";
 
 export default function Main() {
     return (
@@ -16,7 +19,7 @@ export default function Main() {
             <Faculties />
             <Roadmap />
             <Chatbot />
-            <Vakancies />
+            <Vacancies />
             <Faq />
             <Comments />
             <Contacts />
