@@ -43,6 +43,14 @@
 @import url('./blocks/roadmap/__text/roadmap__text.css');
 @import url('./blocks/roadmap/__button/roadmap__button.css');
 
+@import url('./blocks/section-chatbot/section-chatbot.css');
+@import url('./blocks/section-chatbot/__window/section-chatbot__window.css');
+@import url('./blocks/section-chatbot/__admin-wrapper/section-chatbot__admin-wrapper.css');
+@import url('./blocks/section-chatbot/__user-wrapper/section-chatbot__user-wrapper.css');
+@import url('./blocks/section-chatbot/__admin-avatar/section-chatbot__admin-avatar.css');
+@import url('./blocks/section-chatbot/__admin/section-chatbot__admin.css');
+@import url('./blocks/section-chatbot/__admin-question/section-chatbot__admin-question.css');
+
 @import url('./blocks/card-vacancies/card-vacancies.css');
 @import url('./blocks/card-vacancies/__title/card-vacancies__title.css');
 @import url('./blocks/card-vacancies/__job/card-vacancies__job.css');

@@ -1,0 +1,4 @@
+.section-chatbot__admin-question {
+  grid-area: question;
+  margin: 0;
+}
