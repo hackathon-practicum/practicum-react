@@ -40,8 +40,13 @@
 @import url('./blocks/footer/__info/footer__info.css');
 @import url('./blocks/footer/__paragraph/footer__paragraph.css');
 
+@import url('./blocks/swiper/swiper.css');
+
 @import url('./blocks/description/__cards-container/description__cards-container.css');
+@import url(./blocks/description/__cards-container/_type/description__cards-container_type_desktop.css);
+@import url(./blocks/description/__cards-container/_type/description__cards-container_type_mobile.css);
 @import url('./blocks/description/__card/description__card.css');
 @import url('./blocks/description/__card-image/description__card-image.css');
 @import url('./blocks/description/__subtitle/description__subtitle.css');
 @import url('./blocks/description/__text/description__text.css');
+@import url('./blocks/description/__swiper/description__swiper.css');
