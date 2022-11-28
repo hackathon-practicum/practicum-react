@@ -20,6 +20,27 @@
 @import url('./blocks/page/__content/page__content.css');
 @import url('./blocks/content/__section/content__section.css');
 
+@import url('./blocks/vacancies/vacancies.css');
+@import url('./blocks/vacancies/__toogle/vacancies__toogle.css');
+@import url('./blocks/vacancies/__switch/vacancies__switch.css');
+@import url('./blocks/vacancies/__checkbox/vacancies__checkbox.css');
+@import url('./blocks/vacancies/__slider/vacancies__slider.css');
+@import url('./blocks/vacancies/__link/vacancies__link.css');
+@import url('./blocks/vacancies/__link/_active/vacancies__link_active.css');
+@import url('./blocks/vacancies/__nav/vacancies__nav.css');
+@import url('./blocks/vacancies/__list/vacancies__list.css');
+@import url('./blocks/vacancies/__navlink/vacancies__navlink.css');
+@import url('./blocks/vacancies/__navlink/_active/vacancies__navlink_active.css');
+@import url('./blocks/vacancies/__counter/vacancies__counter.css');
+@import url('./blocks/vacancies/__counter/_active/vacancies__counter_active.css');
+@import url('./blocks/vacancies/__cards/vacancies__cards.css');
+
+@import url('./blocks/card-vacancies/card-vacancies.css');
+@import url('./blocks/card-vacancies/__title/card-vacancies__title.css');
+@import url('./blocks/card-vacancies/__job/card-vacancies__job.css');
+@import url('./blocks/card-vacancies/__salary/card-vacancies__salary.css');
+
+
 @import url('./blocks/contacts/contacts.css');
 @import url('./blocks/contacts/__title/contacts__title.css');
 @import url('./blocks/contacts/__text/contacts__text.css');
