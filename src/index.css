@@ -35,6 +35,11 @@
 @import url('./blocks/vacancies/__counter/_active/vacancies__counter_active.css');
 @import url('./blocks/vacancies/__cards/vacancies__cards.css');
 
+@import url('./blocks/roadmap/roadmap.css');
+@import url('./blocks/roadmap/__content/roadmap__content.css');
+@import url('./blocks/roadmap/__text/roadmap__text.css');
+@import url('./blocks/roadmap/__button/roadmap__button.css');
+
 @import url('./blocks/card-vacancies/card-vacancies.css');
 @import url('./blocks/card-vacancies/__title/card-vacancies__title.css');
 @import url('./blocks/card-vacancies/__job/card-vacancies__job.css');
