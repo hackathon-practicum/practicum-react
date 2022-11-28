@@ -1,5 +1,6 @@
 .contacts__arrow {
-  width: 20px;
+  width: 25px;
+  height: 45px;
   opacity: 0;
   animation: slide 3s linear 1s infinite;
 }

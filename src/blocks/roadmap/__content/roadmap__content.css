@@ -1,0 +1,6 @@
+.roadmap__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 0 0 0;
+}

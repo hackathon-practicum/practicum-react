@@ -6,3 +6,7 @@
   line-height: 28px;
   color: #787878;
 }
+
+.vacancies__link:last-child {
+  margin-left: 10px;
+}

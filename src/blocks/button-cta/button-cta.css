@@ -1,0 +1,12 @@
+.button-cta {
+  display: flex;
+  width: fit-content;
+  text-decoration: none;
+  background: #005CFF;
+  border-radius: 100px;
+  margin: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
