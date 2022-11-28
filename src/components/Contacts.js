@@ -9,12 +9,16 @@ export default function Contacts() {
         <p className="contacts__text">Подпишитесь на нас в соцсетях, у нас там много интересного.</p>
       </div>
       <div className="contacts__animation">
-        <img src={arrowRight} alt="Стрелка направление"/>
+        <img src={arrowRight} alt="Стрелка направление" className='contacts__arrow'/>
+        <img src={arrowRight} alt="Стрелка направление" className='contacts__arrow'/>
+        <img src={arrowRight} alt="Стрелка направление" className='contacts__arrow'/>
+        <img src={arrowRight} alt="Стрелка направление" className='contacts__arrow'/>
+        <img src={arrowRight} alt="Стрелка направление" className='contacts__arrow'/>
       </div>
       <nav className='contacts__nav'>
         <NavLink to="#" className='contacts__link contacts__link_journal'>Журнал</NavLink>
-        <NavLink to="#" className='contacts__link contacts__link_vk'>VK</NavLink>
-        <NavLink to="#" className='contacts__link contacts__link_telegram'>telegram</NavLink>
+        <NavLink to="#" className='contacts__link contacts__link_vk'/>
+        <NavLink to="#" className='contacts__link contacts__link_telegram'/>
       </nav>
     </section>
   )

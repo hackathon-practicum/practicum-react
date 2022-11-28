@@ -21,6 +21,14 @@
 @import url('./blocks/content/__section/content__section.css');
 
 @import url('./blocks/contacts/contacts.css');
+@import url('./blocks/contacts/__title/contacts__title.css');
+@import url('./blocks/contacts/__text/contacts__text.css');
+@import url('./blocks/contacts/__animation/contacts__animation.css');
+@import url('./blocks/contacts/__nav/contacts__nav.css');
+@import url('./blocks/contacts/__link/contacts__link.css');
+@import url('./blocks/contacts/__link/_telegram/contacts__link_telegram.css');
+@import url('./blocks/contacts/__link/_vk/contacts__link_vk.css');
+@import url('./blocks/contacts/__arrow/contacts__arrow.css');
 
 @import url('./blocks/footer/footer.css');
 @import url('./blocks/footer/__number/footer__number.css');
