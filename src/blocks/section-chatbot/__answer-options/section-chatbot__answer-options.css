@@ -1,5 +1,6 @@
 .section-chatbot__answer-options {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-top: 50px;
   min-height: 100px;

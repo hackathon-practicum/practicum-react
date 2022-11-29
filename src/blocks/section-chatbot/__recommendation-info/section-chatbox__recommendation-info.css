@@ -1,0 +1,8 @@
+.section-chatbox__recommendation-info {
+  display: flex;
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 30px;
+  background-color: #000000;
+}
