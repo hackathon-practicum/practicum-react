@@ -1,44 +1,70 @@
-import practicumAvatar from "../images/practicumAvatar.svg";
+import { useEffect, useState } from "react";
+import { quizData } from "../utils/constants";
+import ChatBotWindow from "./ChatBotWindow";
+
 export default function Chatbot() {
+  const [answerUser, setAnswerUser] = useState("");
+  const [counterQuestion, setCounterQuestion] = useState(0);
+  const [questionAdmin, setQuestionAdmin] = useState('');
+  const [answerOptions, setAnswerOptions] = useState([]);
+  const [mentorCounter, setMentorCounter] = useState(0);
+  const [reviewerCounter, setReviewerCounter] = useState(0);
+  const [recommendation, setRecommendation] = useState("");
+  const [recommendationOptions, setRecommendationOptions] = useState("");
+
+  const isMentor = mentorCounter > reviewerCounter;
+
+  function handleClickAnswer (e) {
+    setAnswerOptions([]);
+    setAnswerUser(e.target.textContent);
+    if(answerOptions.indexOf(e.target.textContent)===0) {
+      setReviewerCounter(reviewerCounter+1)
+    } else if (answerOptions.indexOf(e.target.textContent)===1){
+      setMentorCounter(mentorCounter+1);
+    }
+    setCounterQuestion(counterQuestion+1);
+  }
+
+  useEffect(()=>{
+    setQuestionAdmin(quizData[counterQuestion]?.question);
+    for (let key in quizData[counterQuestion]?.answers) {
+      setAnswerOptions(answerOptions.concat(Object.values(quizData[counterQuestion]?.answers)));
+    }
+
+    if (counterQuestion+1 === quizData.length) {
+      if (isMentor) {
+        for (let key in quizData[counterQuestion]?.mentor) {
+          setQuestionAdmin(quizData[counterQuestion].mentor.question);
+          setRecommendation(answerOptions.concat(Object.values(quizData[counterQuestion].mentor.recommendation)));
+          setRecommendationOptions(Object.values(quizData[counterQuestion]?.mentor.recommendation.info));
+        }
+      } else {
+        for (let key in quizData[counterQuestion]?.reviewer) {
+          setQuestionAdmin(quizData[counterQuestion].reviewer.question);
+          setRecommendation(answerOptions.concat(Object.values(quizData[counterQuestion].reviewer.recommendation)));
+          setRecommendationOptions(Object.values(quizData[counterQuestion]?.reviewer.recommendation.info));
+        }
+      }
+
+    }
+  },[counterQuestion])
+  console.log(recommendationOptions)
   return (
     <section className="section section-chatbot">
       <h2 className="section__title section-chatbot__title">
         Какая роль вам больше подходит?
       </h2>
-      <div className="section-chatbot__window">
-        <div className="section-chatbot__admin-wrapper">
-          <img
-            src={practicumAvatar}
-            alt="Аватар Яндекс Практикум"
-            className="section-chatbot__admin-avatar"
-          />
-          <h3 className="section-chatbot__admin">Практикум</h3>
-          <p className="section-chatbot__admin-question">
-            Привет! Я задам несколько вопросов, чтобы помочь тебе определиться,
-            какая роль будет ближе, наставника или ревьюера.
-          </p>
-        </div>
-        <div className="section-chatbot__answer-options">
-          <button type="button" className="section-chatbot__button">
-            Начинаем
-          </button>
-          {/* <form className="section-chatbot__list-answers">
-            <input type="radio" name="answer" value="a3" />
-            <label for="answer">Тут вопрос1</label>
-            <input type="radio" name="answer2" value="a3" />
-            <label for="answer2">Тут вопрос2</label>
-          </form> */}
-        </div>
-        <div className="section-chatbot__user-wrapper">
-          <img
-            src={practicumAvatar}
-            alt="Аватар пользователя"
-            className="section-chatbot__user-avatar"
-          />
-          <h3 className="section-chatbot__user">Гость</h3>
-          <p className="section-chatbot__user-answer">Начинаем</p>
-        </div>
-      </div>
+      <ChatBotWindow
+        answerUser={answerUser}
+        counterQuestion={counterQuestion}
+        questionAdmin={questionAdmin}
+        answerOptions={answerOptions}
+        quizData={quizData}
+        handleClickAnswer={handleClickAnswer}
+        recommendationJob={recommendation}
+        recommendationOptions={recommendationOptions}
+        isMentorOrReviewer = {isMentor}
+      />
     </section>
   );
 }

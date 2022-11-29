@@ -2,11 +2,24 @@
   display: flex;
   width: fit-content;
   text-decoration: none;
-  background: #005CFF;
+  background: #004ED9;
   border-radius: 100px;
   margin: auto;
   font-weight: 500;
   font-size: 18px;
   line-height: 60px;
   color: #FFFFFF;
+  border: none;
+  padding: 0 40px 0 40px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.button-cta:hover {
+  background: #005CFF;
+}
+
+.button-cta:disabled {
+  background: #004ED9;
+  color: #083FA2;
 }

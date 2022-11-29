@@ -8,6 +8,7 @@
 
 @import url('./blocks/button-cta/button-cta.css');
 @import url('./blocks/button-cta/_faq/button-cta_faq.css');
+@import url('./blocks/button-cta/_vacancy/button-cta_vacancy.css');
 
 @import url('./blocks/header/header.css');
 @import url('./blocks/header/__list/header__list.css');
@@ -49,6 +50,7 @@
 @import url('./blocks/content/content.css');
 @import url('./blocks/page/__content/page__content.css');
 @import url('./blocks/content/__section/content__section.css');
+@import url('./blocks/content/__section/_type/content__section_type_vacancy.css');
 
 @import url('./blocks/vacancies/vacancies.css');
 @import url('./blocks/vacancies/__toogle/vacancies__toogle.css');
@@ -82,6 +84,17 @@
 @import url('./blocks/section-chatbot/__user-answer/section-chatbot__user-answer.css');
 @import url('./blocks/section-chatbot/__answer-options/section-chatbot__answer-options.css');
 @import url('./blocks/section-chatbot/__button/section-chatbot__button.css');
+@import url('./blocks/section-chatbot/__list-answers/section-chatbot__list-answers.css');
+@import url('./blocks/section-chatbot/__options-element/section-chatbot__options-element.css');
+@import url('./blocks/section-chatbot/__button-cta/section-chatbot__button-cta.css');
+@import url('./blocks/section-chatbot/__recommendation/section-chatbox__recommendation.css');
+@import url('./blocks/section-chatbot/__buttons-recomendation/section-chatbot__buttons-recomendation.css');
+@import url('./blocks/section-chatbot/__recommendation-info/section-chatbox__recommendation-info.css');
+@import url('./blocks/section-chatbot/__recommendation-title/section-chatbox__recommendation-title.css');
+@import url('./blocks/section-chatbot/__recommendation-item/section-chatbox__recommendation-item.css');
+@import url('./blocks/section-chatbot/__recommendation-arrow/section-chatbox__recommendation-arrow.css');
+@import url('./blocks/section-chatbot/__recommendation-text/section-chatbox__recommendation-text.css');
+@import url('./blocks/section-chatbot/__animation/section-chatbox__animation.css');
 
 @import url('./blocks/card-vacancies/card-vacancies.css');
 @import url('./blocks/card-vacancies/__title/card-vacancies__title.css');
@@ -138,3 +151,25 @@
 @import url('./blocks/comments/__card-image/comments__card-image.css');
 @import url('./blocks/comments/__title/comments__title.css');
 @import url('./blocks/comments/__text/comments__text.css');
+
+@import url('./blocks/vacancy/vacancy.css');
+@import url('./blocks/vacancy/__wrapper/vacancy__wrapper.css');
+@import url('./blocks/vacancy/__link/vacancy__link.css');
+@import url('./blocks/vacancy/__title/vacancy__title.css');
+@import url('./blocks/vacancy/__subtitle/vacancy__subtitle.css');
+@import url('./blocks/vacancy/__list/vacancy__list.css');
+@import url('./blocks/vacancy/__text/vacancy__text.css');
+@import url('./blocks/vacancy/__button-wrapper/vacancy__button-wrapper.css');
+@import url('./blocks/vacancy/__arrow/vacancy__arrow.css');
+
+@import url('./blocks/popup/popup.css');
+@import url('./blocks/popup/_opened/popup_opened.css');
+@import url('./blocks/popup/__container/popup__container.css');
+@import url('./blocks/popup/__close-button/popup__close-button.css');
+@import url('./blocks/popup/__form/popup__form.css');
+@import url('./blocks/popup/__contacts/popup__contacts.css');
+@import url('./blocks/popup/__field/popup__field.css');
+@import url('./blocks/popup/__input/popup__input.css');
+@import url('./blocks/popup/__input/_type/popup__input_type_stack.css');
+@import url('blocks/popup/__checkbox-container/popup__checkbox-container.css');
+@import url('./blocks/popup/__checkbox/popup__checkbox.css');

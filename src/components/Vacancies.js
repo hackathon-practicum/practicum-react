@@ -4,7 +4,7 @@ import { cardDataReviewer } from "../utils/constants";
 export default function Vacancies() {
   function createCardsVacancies(data) {
     return data.map((item, i) => (
-      <NavLink to={item.url} className="card-vacancies" key={i}>
+      <NavLink to="/vacancy" className="card-vacancies" key={i}>
         <h2 className="card-vacancies__title">{item.title}</h2>
         <p className="card-vacancies__job">{item.job}</p>
         <p className="card-vacancies__salary">{item.salary}</p>

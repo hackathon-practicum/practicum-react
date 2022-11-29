@@ -1,0 +1,9 @@
+.section-chatbot__buttons-recomendation {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 35px;
+  background: #EAEAEA;
+  border-radius: 0px 0px 30px 30px;
+}
