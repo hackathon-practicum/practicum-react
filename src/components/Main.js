@@ -7,9 +7,6 @@ import Vacancies from "./Vacancies";
 import Faq from "./Faq";
 import Comments from "./Comments";
 import Contacts from "./Contacts";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
 
 export default function Main() {
     return (

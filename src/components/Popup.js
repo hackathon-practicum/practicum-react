@@ -55,7 +55,7 @@ export default function Popup(props) {
                         <input className="popup__checkbox" type="checkbox" id="check" name="check" />
                         <label htmlFor="scales">Я даю согласие АНО ДПО «ШАД» и ООО «ЯНДЕКС» на обработку <br /> указанных данных для целей рассмотрения анкеты и обратной связи <br /> по ней.</label>
                     </div>
-                    <button type="submit" className="button-cta">Отправить</button>
+                    <button onMouseDown={props.onClose} type="submit" className="button-cta">Отправить</button>
                 </form>
             </div>
         </div>

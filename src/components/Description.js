@@ -28,9 +28,9 @@ export default function Description() {
                     spaceBetween={20}
                     freeMode={true}
                     modules={[FreeMode, Navigation]}
-                    navigation={false}
-                    loop={false}
-                    className="my-swiper description__swiper"
+                    navigation={true}
+                    loop={true}
+                    className="my-swiper"
                 >
                     <SwiperSlide>
                         <DescriptionCard

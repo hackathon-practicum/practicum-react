@@ -1,4 +1,4 @@
-import {FreeMode, Navigation} from "swiper";
+import {FreeMode, Navigation } from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import React from "react";
 import CommentsCard from "./CommentsCard";
@@ -13,9 +13,9 @@ export default function Comments() {
                     spaceBetween={20}
                     freeMode={true}
                     modules={[FreeMode, Navigation]}
-                    navigation={false}
-                    loop={false}
-                    className="my-swiper comments__swiper"
+                    navigation={true}
+                    loop={true}
+                    className="my-swiper"
                 >
                     <SwiperSlide>
                         <CommentsCard
