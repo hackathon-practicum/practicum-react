@@ -1,1 +1,7 @@
-export default function MainInfo() {}
+export default function MainInfo() {
+  return (
+    <div>
+      test
+    </div>
+  )
+}
