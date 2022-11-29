@@ -1,0 +1,8 @@
+.vacancy__button-wrapper {
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: start;
+    justify-content: center;
+}
