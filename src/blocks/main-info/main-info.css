@@ -1,0 +1,8 @@
+.main-info {
+  display: block;
+  width: 100%;
+  height: 786px;
+  padding: 25px 15px 21px 10px;
+  box-sizing: border-box;
+  background-color: #000000;
+}

@@ -1,0 +1,10 @@
+.main-info__girl-pic {
+  width: 350px;
+  height: 202px;
+  object-fit: cover;
+  object-position: center;
+  box-sizing: border-box;
+  border-radius: 80px;
+  background-color: #C4C4C4;
+  margin: auto auto 0 260px;
+}
