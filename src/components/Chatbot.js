@@ -10,8 +10,10 @@ export default function Chatbot() {
   const [mentorCounter, setMentorCounter] = useState(0);
   const [reviewerCounter, setReviewerCounter] = useState(0);
   const [recommendation, setRecommendation] = useState("");
+  const [recommendationOptions, setRecommendationOptions] = useState("");
 
   const isMentor = mentorCounter > reviewerCounter;
+
   function handleClickAnswer (e) {
     setAnswerOptions([]);
     setAnswerUser(e.target.textContent);
@@ -26,8 +28,7 @@ export default function Chatbot() {
   useEffect(()=>{
     setQuestionAdmin(quizData[counterQuestion]?.question);
     for (let key in quizData[counterQuestion]?.answers) {
-      const objValues = Object.values(quizData[counterQuestion]?.answers);
-      setAnswerOptions(answerOptions.concat(objValues));
+      setAnswerOptions(answerOptions.concat(Object.values(quizData[counterQuestion]?.answers)));
     }
 
     if (counterQuestion+1 === quizData.length) {
@@ -35,17 +36,19 @@ export default function Chatbot() {
         for (let key in quizData[counterQuestion]?.mentor) {
           setQuestionAdmin(quizData[counterQuestion].mentor.question);
           setRecommendation(answerOptions.concat(Object.values(quizData[counterQuestion].mentor.recommendation)));
+          setRecommendationOptions(Object.values(quizData[counterQuestion]?.mentor.recommendation.info));
         }
       } else {
         for (let key in quizData[counterQuestion]?.reviewer) {
           setQuestionAdmin(quizData[counterQuestion].reviewer.question);
           setRecommendation(answerOptions.concat(Object.values(quizData[counterQuestion].reviewer.recommendation)));
+          setRecommendationOptions(Object.values(quizData[counterQuestion]?.reviewer.recommendation.info));
         }
       }
 
     }
   },[counterQuestion])
-
+  console.log(recommendationOptions)
   return (
     <section className="section section-chatbot">
       <h2 className="section__title section-chatbot__title">
@@ -59,6 +62,7 @@ export default function Chatbot() {
         quizData={quizData}
         handleClickAnswer={handleClickAnswer}
         recommendationJob={recommendation}
+        recommendationOptions={recommendationOptions}
         isMentorOrReviewer = {isMentor}
       />
     </section>

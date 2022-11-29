@@ -10,8 +10,26 @@ export default function ChatBotWindow({
   answerOptions,
   handleClickAnswer,
   recommendationJob,
+  recommendationOptions,
   isMentorOrReviewer,
-}) {
+  }) {
+
+    const recommendationItem =
+    recommendationOptions ? recommendationOptions.map((item, i) =>{
+        return (
+        <div className="section-chatbox__animation">
+          <img
+            src={arrowRight}
+            alt="Стрелка направление"
+            className="section-chatbox__recommendation-arrow"
+          />
+          <p className="section-chatbox__recommendation-item" key={i}>{item}</p>
+        </div>)
+      }) : ""
+
+
+
+
   return (
     <div className="section-chatbot__window">
       <div className="section-chatbot__template">
@@ -24,7 +42,7 @@ export default function ChatBotWindow({
           <h3 className="section-chatbot__admin">Практикум</h3>
           <p className="section-chatbot__admin-question">{questionAdmin}</p>
         </div>
-        {counterQuestion > 0  && counterQuestion + 1 !== quizData.length && (
+        {counterQuestion > 0 && counterQuestion + 1 !== quizData.length && (
           <div className="section-chatbot__user-wrapper">
             <img
               src={practicumAvatar}
@@ -39,17 +57,12 @@ export default function ChatBotWindow({
         {counterQuestion + 1 === quizData.length ? (
           <div className="section-chatbox__recommendation">
             <div className="section-chatbox__recommendation-info">
-              <h2 className="section-chatbox__recommendation-title">
-                {recommendationJob[0]}
-              </h2>
-              <img
-                src={arrowRight}
-                alt="Стрелка направление"
-                className="contacts__arrow section-chatbox__recommendation-arrow"
-              />
-              <p className="section-chatbox__recommendation-item">
-                {"пункты рекомендации"}
-              </p>
+              <div className="section-chatbox__recommendation-text">
+                <h2 className="section-chatbox__recommendation-title">
+                  {recommendationJob[0]}
+                </h2>
+                {recommendationItem}
+              </div>
               <img src={recommendationJob[2]} alt="фотография ревьювера" />
             </div>
             <div className="section-chatbot__buttons-recomendation">

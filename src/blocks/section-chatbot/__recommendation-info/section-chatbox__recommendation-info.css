@@ -1,13 +1,8 @@
 .section-chatbox__recommendation-info {
+  display: flex;
+  gap: 20px;
   box-sizing: border-box;
   padding: 40px;
   border-radius: 30px;
   background-color: #000000;
-  display: grid;
-  justify-items: stretch;
-  justify-content: space-evenly;
-  grid-template-columns: min-content 40% 50%;
-  grid-template-areas:
-    "title title img"
-    "arrow recommendation img";
 }
