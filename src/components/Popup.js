@@ -1,9 +1,14 @@
 import React from "react";
 
-export default function Popup() {
+export default function Popup(props) {
+    const isOpen = props.isOpen ? 'popup_opened' : '';
     return (
-        <div className="popup popup_opened">
-            <button className="popup__close-button" type="button"></button>
+        <div onMouseDown={(e) => {
+            if (e.target === e.currentTarget) {
+                props.onClose()
+            }
+        }} className={`popup ${isOpen}`}>
+            <button onMouseDown={props.onClose} className="popup__close-button" type="button"></button>
             <div className="popup__container">
                 <h2 className="section__title popup__heading">Хочу стать наставником на курсе <br/> «Мидл-фронтенд разработчик»</h2>
                 <form className="popup__form">
