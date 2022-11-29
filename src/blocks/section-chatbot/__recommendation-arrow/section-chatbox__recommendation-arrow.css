@@ -3,49 +3,49 @@
   width: 25px;
   height: 45px;
   opacity: 0;
-  animation: slideB 3s linear 1s infinite;
+  animation: recomendation-arrow 3s linear 1s infinite;
 }
 
-@-webkit-keyframes slideB {
+@-webkit-keyframes recomendation-arrow {
   0% {
     opacity: 0;
-    transform: translateX(-5vw);
+    transform: translate(0vw);
   }
 
   20% {
     opacity: 1;
-    transform: translateX(-3vw);
+    transform: translate(0vw);
   }
 
   80% {
     opacity: 1;
-    transform: translateX(-1vw);
+    transform: translate(-1vw);
   }
 
   100% {
     opacity: 0;
-    transform: translateX(1vw);
+    transform: translate(-1vw);
   }
 }
 
-@keyframes slideB {
+@keyframes recomendation-arrow {
   0% {
     opacity: 0;
-    transform: translate(-20vw -50vw);
+    transform: translate(0vw);
   }
 
   20% {
     opacity: 1;
-    transform: translate(-20vw -50vw);
+    transform: translate(0vw);
   }
 
   80% {
     opacity: 1;
-    transform: translate(-20vw -50vw);
+    transform: translate(-1vw);
   }
 
   100% {
     opacity: 0;
-    transform: translate(-20vw -50vw);
+    transform: translate(-1vw);
   }
 }
