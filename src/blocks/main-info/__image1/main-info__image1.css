@@ -1,0 +1,10 @@
+.main-info__image1 {
+  width: 300px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: #C4C4C4;
+  margin: auto 52px 60px 25px;
+}
