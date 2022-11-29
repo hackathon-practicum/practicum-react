@@ -57,6 +57,15 @@
 @import url('./blocks/section-chatbot/__user-answer/section-chatbot__user-answer.css');
 @import url('./blocks/section-chatbot/__answer-options/section-chatbot__answer-options.css');
 @import url('./blocks/section-chatbot/__button/section-chatbot__button.css');
+@import url('./blocks/section-chatbot/__list-answers/section-chatbot__list-answers.css');
+@import url('./blocks/section-chatbot/__options-element/section-chatbot__options-element.css');
+@import url('./blocks/section-chatbot/__button-cta/section-chatbot__button-cta.css');
+@import url('./blocks/section-chatbot/__recommendation/section-chatbox__recommendation.css');
+@import url('./blocks/section-chatbot/__buttons-recomendation/section-chatbot__buttons-recomendation.css');
+@import url('./blocks/section-chatbot/__recommendation-info/section-chatbox__recommendation-info.css');
+@import url('./blocks/section-chatbot/__recommendation-title/section-chatbox__recommendation-title.css');
+@import url('./blocks/section-chatbot/__recommendation-item/section-chatbox__recommendation-item.css');
+@import url('./blocks/section-chatbot/__recommendation-arrow/section-chatbox__recommendation-arrow.css');
 
 @import url('./blocks/card-vacancies/card-vacancies.css');
 @import url('./blocks/card-vacancies/__title/card-vacancies__title.css');

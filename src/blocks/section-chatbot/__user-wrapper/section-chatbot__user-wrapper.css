@@ -4,6 +4,7 @@
   max-width: 50%;
   gap: 10px;
   display: grid;
+  grid-template-columns: max-content min-content;
   justify-content: end;
   grid-template-areas:
     "user ."
