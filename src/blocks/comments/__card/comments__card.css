@@ -1,7 +1,7 @@
 .comments__card {
     width: 350px;
-    max-height: 840px;
-    min-height: 572px;
+    max-height: 600px;
+    min-height: 500px;
     padding: 20px;
     display: flex;
     flex-direction: column;

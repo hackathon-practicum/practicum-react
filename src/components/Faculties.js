@@ -2,7 +2,6 @@ import React from "react";
 import FacultiesCard from "./FacultiesCard";
 import {FreeMode, Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
-import DescriptionCard from "./DescriptionCard";
 
 export default function Faculties() {
     return (
@@ -14,9 +13,9 @@ export default function Faculties() {
                     spaceBetween={30}
                     freeMode={true}
                     modules={[FreeMode, Navigation]}
-                    navigation={false}
-                    loop={false}
-                    className="my-swiper faculties__swiper"
+                    navigation={true}
+                    loop={true}
+                    className="my-swiper"
                 >
                     <SwiperSlide>
                         <FacultiesCard
