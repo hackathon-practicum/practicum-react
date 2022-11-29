@@ -60,6 +60,19 @@
 @import url('./blocks/roadmap/__text/roadmap__text.css');
 @import url('./blocks/roadmap/__button/roadmap__button.css');
 
+@import url('./blocks/section-chatbot/section-chatbot.css');
+@import url('./blocks/section-chatbot/__window/section-chatbot__window.css');
+@import url('./blocks/section-chatbot/__admin-wrapper/section-chatbot__admin-wrapper.css');
+@import url('./blocks/section-chatbot/__user-wrapper/section-chatbot__user-wrapper.css');
+@import url('./blocks/section-chatbot/__admin-avatar/section-chatbot__admin-avatar.css');
+@import url('./blocks/section-chatbot/__admin/section-chatbot__admin.css');
+@import url('./blocks/section-chatbot/__admin-question/section-chatbot__admin-question.css');
+@import url('./blocks/section-chatbot/__user/section-chatbot__user.css');
+@import url('./blocks/section-chatbot/__uset-avatar/section-chatbot__user-avatar.css');
+@import url('./blocks/section-chatbot/__user-answer/section-chatbot__user-answer.css');
+@import url('./blocks/section-chatbot/__answer-options/section-chatbot__answer-options.css');
+@import url('./blocks/section-chatbot/__button/section-chatbot__button.css');
+
 @import url('./blocks/card-vacancies/card-vacancies.css');
 @import url('./blocks/card-vacancies/__title/card-vacancies__title.css');
 @import url('./blocks/card-vacancies/__job/card-vacancies__job.css');
@@ -109,3 +122,9 @@
 @import url('./blocks/faculties/__subtitle/faculties__subtitle.css');
 @import url('./blocks/faculties/__card-image/faculties__card-image.css');
 
+@import url('./blocks/comments/comments.css');
+@import url('./blocks/comments/__cards-container/comments__cards-container.css');
+@import url('./blocks/comments/__card/comments__card.css');
+@import url('./blocks/comments/__card-image/comments__card-image.css');
+@import url('./blocks/comments/__title/comments__title.css');
+@import url('./blocks/comments/__text/comments__text.css');

@@ -1,0 +1,8 @@
+.section-chatbot__admin-wrapper {
+  max-width: 50%;
+  gap: 10px;
+  display: grid;
+  grid-template-areas:
+    ". admin"
+    "avatar question";
+}
