@@ -14,7 +14,7 @@ export default function Faculties() {
             <h2 className="section__title section__title_type_white">Чему мы учим</h2>
             <div className="faculties__cards-container">
                 <Swiper
-                    slidesPerView={"auto"}
+                    slidesPerView={'auto'}
                     spaceBetween={30}
                     freeMode={true}
                     modules={[FreeMode, Navigation]}
