@@ -1,1 +1,3 @@
-.vacancies__nav {}
+.vacancies__nav {
+  align-self: flex-start;
+}

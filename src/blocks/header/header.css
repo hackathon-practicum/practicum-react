@@ -2,5 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28.5px 55px 38.5px 38px;
+  max-width: 1440px;
+  padding: 28.5px 165px 38.5px;
 }

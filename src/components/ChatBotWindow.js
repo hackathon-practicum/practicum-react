@@ -23,12 +23,9 @@ export default function ChatBotWindow({
             alt="Стрелка направление"
             className="section-chatbox__recommendation-arrow"
           />
-          <p className="section-chatbox__recommendation-item" key={i}>{item}</p>
+          <p className="section-chatbox__recommendation-item" key={i+item[1]}>{item}</p>
         </div>)
       }) : ""
-
-
-
 
   return (
     <div className="section-chatbot__window">

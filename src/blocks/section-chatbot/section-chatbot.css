@@ -1,3 +1,6 @@
 .section-chatbot {
   margin-top: 100px;
+  padding: 0 0 50px 0;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }

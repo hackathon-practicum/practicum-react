@@ -1,0 +1,4 @@
+.section-faq__arrow_active {
+  transform: rotate(90deg);
+  transition: all .5s linear;
+}

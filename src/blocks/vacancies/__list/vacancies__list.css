@@ -1,11 +1,8 @@
 .vacancies__list {
   display: flex;
-  margin: 30px 0 0 0;
+  margin: 25px 0 0 0;
   width: max-content;
-  gap: 20px;
+  gap: 30px;
   padding: 0;
   list-style: none;
-  background: #FFFFFF;
-  border-radius: 60px;
-  padding: 20px 30px;
 }

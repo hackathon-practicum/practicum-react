@@ -27,6 +27,7 @@
 @import url('./blocks/content/__section/_type/content__section_type_vacancy.css');
 
 @import url('./blocks/vacancies/vacancies.css');
+@import url('./blocks/vacancies/__title/vacancies__title.css');
 @import url('./blocks/vacancies/__toogle/vacancies__toogle.css');
 @import url('./blocks/vacancies/__switch/vacancies__switch.css');
 @import url('./blocks/vacancies/__checkbox/vacancies__checkbox.css');
@@ -40,11 +41,15 @@
 @import url('./blocks/vacancies/__counter/vacancies__counter.css');
 @import url('./blocks/vacancies/__counter/_active/vacancies__counter_active.css');
 @import url('./blocks/vacancies/__cards/vacancies__cards.css');
+@import url('./blocks/vacancies/__form/vacancies__form.css');
+@import url('./blocks/vacancies/__button-cta/vacancies__button-cta.css');
+
 
 @import url('./blocks/roadmap/roadmap.css');
 @import url('./blocks/roadmap/__content/roadmap__content.css');
 @import url('./blocks/roadmap/__text/roadmap__text.css');
 @import url('./blocks/roadmap/__button/roadmap__button.css');
+@import url('./blocks/roadmap/__animation/roadmap__animation.css');
 
 @import url('./blocks/section-chatbot/section-chatbot.css');
 @import url('./blocks/section-chatbot/__window/section-chatbot__window.css');
@@ -80,8 +85,12 @@
 @import url('./blocks/section-faq/__answer/section-faq__answer.css');
 @import url('./blocks/section-faq/__content/section-faq__content.css');
 @import url('./blocks/section-faq/__item/section-faq__item.css');
+@import url('./blocks/section-faq/__question/section-faq__question.css');
+@import url('./blocks/section-faq/__arrow/section-faq__arrow.css');
+@import url('./blocks/section-faq/__arrow/_active/section-faq__arrow_active.css');
 
 @import url('./blocks/contacts/contacts.css');
+@import url('./blocks/contacts/__wrapper/contacts__wrapper.css');
 @import url('./blocks/contacts/__title/contacts__title.css');
 @import url('./blocks/contacts/__text/contacts__text.css');
 @import url('./blocks/contacts/__animation/contacts__animation.css');

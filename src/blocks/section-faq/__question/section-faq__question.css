@@ -1,0 +1,6 @@
+.section-faq__question {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px 30px 30px;
+  margin-top: -20px;
+}
