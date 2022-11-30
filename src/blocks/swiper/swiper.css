@@ -37,6 +37,7 @@
 .my-swiper .swiper-slide:hover {
     transform: scale(1.05);
     transition: transform .3s ease-out;
+    cursor: pointer;
 }
 
 .my-swiper .swiper-wrapper {

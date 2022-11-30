@@ -125,8 +125,9 @@
 @import url('./blocks/faculties/faculties.css');
 @import url('./blocks/faculties/__cards-container/faculties__cards-container.css');
 @import url('./blocks/faculties/__card/faculties__card.css');
+@import url('blocks/faculties/__card/_type/faculties__card_type_back.css');
 @import url('./blocks/faculties/__subtitle/faculties__subtitle.css');
-@import url('./blocks/faculties/__card-image/faculties__card-image.css');
+@import url('./blocks/faculties/__button/faculties__button.css');
 
 @import url('./blocks/comments/comments.css');
 @import url('./blocks/comments/__cards-container/comments__cards-container.css');
@@ -136,6 +137,7 @@
 @import url('./blocks/comments/__text/comments__text.css');
 @import url('./blocks/comments/__swiper/comments__swiper.css');
 @import url('./blocks/comments/__subtitle/comments__subtitle.css');
+@import url('./blocks/comments/__iframe/comments__iframe.css');
 
 @import url('./blocks/vacancy/vacancy.css');
 @import url('./blocks/vacancy/__wrapper/vacancy__wrapper.css');
