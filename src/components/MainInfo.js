@@ -13,7 +13,6 @@ export default function MainInfo() {
 
   return (
     <section className="main-info">
-      <div className='main-info__text-container'>
         <div className="main-info__text-container">
           <div className='main-info__text-arrow-container'>
             <h2 className="title title_main-info">Это</h2>
@@ -29,7 +28,6 @@ export default function MainInfo() {
           </h4>
           <NavLink to="#" className="button-cta main-info__button-cta">Начать делиться знаниями</NavLink>
         </div>
-      </div>
     </section>
   )
 }

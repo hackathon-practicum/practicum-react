@@ -1,8 +1,9 @@
 .roadmap__animation {
   width: 25px;
   height: 45px;
-  opacity: 0;
-  animation: roadmap__animation 3s linear 3s infinite;
+  opacity: 1;
+  transform: rotateX(0deg);
+  animation: roadmap__animation 3s linear 1s infinite;
 }
 
 @-webkit-keyframes roadmap__animation {

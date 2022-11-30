@@ -6,3 +6,9 @@
   padding: 30px 40px;
   border-radius: 30px;
 }
+
+@media (max-width: 1320px) {
+  .contacts {
+    padding: 75px 30px 130px;
+  }
+}
