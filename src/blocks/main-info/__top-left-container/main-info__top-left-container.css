@@ -1,0 +1,9 @@
+.main-info____top-left-container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  object-position: center;
+  box-sizing: border-box;
+  margin: auto 52px 60px 25px;
+}

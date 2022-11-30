@@ -1,0 +1,13 @@
+.main-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 786px;
+  box-sizing: border-box;
+  background-image: url('../../images/fon1.jpg');
+  object-fit: cover;
+  object-position: center;
+  box-sizing: border-box;
+  border-radius: 0 0 30px 30px;
+  padding-top: 210px;
+}

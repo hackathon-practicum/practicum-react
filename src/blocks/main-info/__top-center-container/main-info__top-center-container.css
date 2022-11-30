@@ -1,0 +1,9 @@
+.main-info__top-center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 744px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
