@@ -50,7 +50,6 @@
 @import url('./blocks/main-info/__section__subtitle/main-info__section__subtitle.css');
 
 @import url('./blocks/content/content.css');
-@import url('./blocks/page/__content/page__content.css');
 @import url('./blocks/content/__section/content__section.css');
 @import url('./blocks/content/__section/_type/content__section_type_vacancy.css');
 
@@ -76,7 +75,6 @@
 @import url('./blocks/roadmap/roadmap.css');
 @import url('./blocks/roadmap/__content/roadmap__content.css');
 @import url('./blocks/roadmap/__text/roadmap__text.css');
-@import url('./blocks/roadmap/__button/roadmap__button.css');
 @import url('./blocks/roadmap/__animation/roadmap__animation.css');
 
 @import url('./blocks/section-chatbot/section-chatbot.css');

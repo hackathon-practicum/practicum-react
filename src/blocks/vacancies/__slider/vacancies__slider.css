@@ -1,6 +1,7 @@
 .vacancies__slider {
-  width: 36px;
-  margin-left: 10px;
+  width: 60px;
+  height: 30px;
+  margin: 10px;
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -10,14 +11,14 @@
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
-  border-radius: 34px;
+  border-radius: 51px;
 }
 
 .vacancies__slider:before {
   position: absolute;
   content: "";
-  height: 19px;
-  width: 19px;
+  height: 24px;
+  width: 24px;
   left: 0;
   bottom: -2px;
   background-color: white;
