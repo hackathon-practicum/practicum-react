@@ -17,6 +17,7 @@
 
 .button-cta:hover {
   background: #005CFF;
+  transition: background .3s ease-out;
 }
 
 .button-cta:disabled {

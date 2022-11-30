@@ -136,8 +136,6 @@
 @import url('./blocks/comments/__text/comments__text.css');
 @import url('./blocks/comments/__swiper/comments__swiper.css');
 @import url('./blocks/comments/__subtitle/comments__subtitle.css');
-@import url('./blocks/comments/__card/_type/comments__card_type_visible.css');
-@import url('./blocks/comments/__card/_type/comments__card_type_hidden.css');
 
 @import url('./blocks/vacancy/vacancy.css');
 @import url('./blocks/vacancy/__wrapper/vacancy__wrapper.css');

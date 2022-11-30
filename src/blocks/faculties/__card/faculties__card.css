@@ -9,3 +9,8 @@
     border-radius: 30px;
     overflow: hidden;
 }
+
+.faculties__card:hover {
+    background-color: #004ED9;
+    transition: background-color .3s ease-out;
+}
