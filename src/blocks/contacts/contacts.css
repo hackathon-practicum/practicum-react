@@ -3,3 +3,9 @@
   box-sizing: border-box;
   background-color: #000000;
 }
+
+@media (max-width: 1320px) {
+  .contacts {
+    padding: 75px 30px 130px;
+  }
+}

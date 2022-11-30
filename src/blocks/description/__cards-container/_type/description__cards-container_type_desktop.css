@@ -1,6 +1,5 @@
 .description__cards-container_type_desktop {
   display: none;
-  padding: 0;
 }
 
 @media only screen and (min-width: 1024px) {

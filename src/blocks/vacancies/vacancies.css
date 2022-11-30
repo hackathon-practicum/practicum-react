@@ -6,3 +6,9 @@
   padding: 100px 165px 75px;
   background-color: #000000;
 }
+
+@media (max-width: 1130px) {
+  .vacancies {
+    padding: 100px 40px 75px;
+  }
+}
