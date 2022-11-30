@@ -17,7 +17,6 @@ export default function Faq() {
             nameClass={'section-faq'}/>
         ))}
       </div>
-      <NavLink to="#" className="button-cta button-cta_faq">Хочу расти профессионально</NavLink>
     </section>
   )
 }

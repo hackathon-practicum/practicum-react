@@ -81,7 +81,7 @@ export default function ChatBotWindow({
             {counterQuestion === 0 && (
               <button
                 type="button"
-                className="section-chatbot__button"
+                className="button-cta section-chatbot__button-cta"
                 onClick={handleClickAnswer}>
                 {counterQuestion === 0 && "Подобрать себе роль"}
               </button>

@@ -7,4 +7,10 @@
   text-decoration: none;
   background-color: #FFFFFF;
   border-radius: 30px;
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+.card-vacancies:hover {
+  opacity: .7;
 }
