@@ -57,11 +57,6 @@ export default function Comments() {
                             text={'Выбрал работу в Я.Практикуме, чтобы реализовать себя как профессионал.'}
                         />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <CommentsCard
-                            class={'comments__card_type_hidden'}
-                        />
-                    </SwiperSlide>
                 </Swiper>
             </div>
         </section>
