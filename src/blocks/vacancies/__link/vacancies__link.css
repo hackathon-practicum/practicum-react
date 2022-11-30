@@ -7,6 +7,10 @@
   color: #B5B5B5;
 }
 
+.vacancies__link:first-child {
+  margin-right: 20px;
+}
+
 .vacancies__link:last-child {
-  margin-left: 20px;
+  margin-left: 45px;
 }

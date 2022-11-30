@@ -1,7 +1,7 @@
 .main-info {
   display: flex;
   justify-content: center;
-  width: 100%;
+  max-width: 1440px;
   height: 786px;
   box-sizing: border-box;
   background-image: url('../../images/fon1.jpg');
@@ -10,4 +10,5 @@
   box-sizing: border-box;
   border-radius: 0 0 30px 30px;
   padding-top: 210px;
+  margin: 0 auto;
 }

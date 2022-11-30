@@ -1,14 +1,15 @@
 .faculties {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 12%;
-    background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12%;
+  background-color: #000000;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1280px) {
-    .faculties {
-        padding-left: 5%;
-    }
+  .faculties {
+    padding-left: 5%;
+  }
 }
