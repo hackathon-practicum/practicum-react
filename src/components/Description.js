@@ -2,6 +2,9 @@ import DescriptionCard from "./DescriptionCard";
 import {FreeMode, Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import React from "react";
+import descriptionPic from "../images/description_pic.svg";
+import descriptionPic2 from "../images/description_pic2.svg";
+import descriptionPic3 from "../images/description_pic3.svg";
 
 export default function Description() {
     return (
@@ -9,14 +12,17 @@ export default function Description() {
             <h2 className="section__title">В роли наставника и ревьюера вы будете</h2>
             <ul className="description__cards-container description__cards-container_type_desktop">
                 <DescriptionCard
+                    image={descriptionPic}
                     subtitle={'Развивать \n личный бренд'}
                     text={"Вы сможете стать старшим наставником \n или сеньор-ревьювером"}
                 />
                 <DescriptionCard
+                    image={descriptionPic2}
                     subtitle={"Общаться с людьми \n из EdTech"}
                     text={"Станете частью сообщества экспертов \n и посмотрите на мир онлайн-\n образования изнутри"}
                 />
                 <DescriptionCard
+                    image={descriptionPic3}
                     subtitle={"Иметь доход в среднем от 35 \n до 50 тысяч ₽ в месяц"}
                     text={"Удаленно, 2–3 часа в день, график \n выбираете сами"}
                 />
@@ -29,26 +35,26 @@ export default function Description() {
                     freeMode={true}
                     modules={[FreeMode, Navigation]}
                     navigation={true}
-                    loop={true}
+                    loop={false}
                     className="my-swiper"
                 >
                     <SwiperSlide>
                         <DescriptionCard
-                            image={'http://placekitten.com/g/400/200'}
+                            image={descriptionPic}
                             subtitle={'Развивать \n личный бренд'}
                             text={"Вы сможете стать старшим наставником \n или сеньор-ревьювером"}
                         />
                     </SwiperSlide>
                     <SwiperSlide>
                         <DescriptionCard
-                            image={'http://placekitten.com/g/400/200'}
+                            image={descriptionPic2}
                             subtitle={"Общаться с людьми \n из EdTech"}
                             text={"Станете частью сообщества экспертов \n и посмотрите на мир онлайн-\n образования изнутри"}
                         />
                     </SwiperSlide>
                     <SwiperSlide>
                         <DescriptionCard
-                            image={'http://placekitten.com/g/400/200'}
+                            image={descriptionPic3}
                             subtitle={"Иметь доход в среднем от 35 \n до 50 тысяч ₽ в месяц"}
                             text={"Удаленно, 2–3 часа в день, график \n выбираете сами"}
                         />

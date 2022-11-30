@@ -39,10 +39,18 @@
 }
 
 .my-swiper .swiper-button-prev {
-    left: 40%;
+    left: 45%;
     right: auto;
     top: 95%;
     bottom: 0;
+    background-image: url(../../images/slider_left.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    color: transparent;
 }
 
 @media screen and (max-width: 1024px) {
@@ -52,10 +60,18 @@
 }
 
 .my-swiper .swiper-button-next {
-    right: 40%;
+    right: 45%;
     left: auto;
     top: 95%;
     bottom: 0;
+    background-image: url(../../images/slider_right.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    color: transparent;
 }
 
 @media screen and (max-width: 1024px) {
