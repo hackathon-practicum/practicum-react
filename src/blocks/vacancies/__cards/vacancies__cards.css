@@ -1,6 +1,7 @@
 .vacancies__cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 30px;
   gap: 30px;
 }

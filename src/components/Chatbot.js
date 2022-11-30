@@ -45,10 +45,9 @@ export default function Chatbot() {
           setRecommendationOptions(Object.values(quizData[counterQuestion]?.reviewer.recommendation.info));
         }
       }
-
     }
   },[counterQuestion])
-  console.log(recommendationOptions)
+
   return (
     <section className="section section-chatbot">
       <h2 className="section__title section-chatbot__title">

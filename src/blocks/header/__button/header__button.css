@@ -1,10 +1,10 @@
 .header__button {
-  color: #1A1B22;
-  border: 1px solid #1A1B22;
+  color: #FFFFFF;
   border-radius: 100px;
   padding: 0 16px;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 36px;
+  background-color: #000000;
 }

@@ -8,8 +8,13 @@ export default function Faq() {
     <section className="section section-faq">
       <h2 className="section__title">Если остались вопросы</h2>
       <div className="section-faq__content">
-        {cardDataFAQ.map((item,i) => (
-          <Accordion key={i} title={item.question} content={item.answer} nameClass={'section-faq'}/>
+        {cardDataFAQ.map((item) => (
+          <Accordion
+            key={item.id}
+            title={item.question}
+            arrow={item.arrowColor}
+            content={item.answer}
+            nameClass={'section-faq'}/>
         ))}
       </div>
       <NavLink to="#" className="button-cta button-cta_faq">Хочу расти профессионально</NavLink>
