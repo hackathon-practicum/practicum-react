@@ -5,6 +5,8 @@
   height: 786px;
   box-sizing: border-box;
   background-image: url('../../images/fon1.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
   object-fit: cover;
   object-position: center;
   box-sizing: border-box;

@@ -1,4 +1,5 @@
 .main-info__button-cta {
   padding: 0 28px;
   border: 0;
+  min-height: 60px;
 }
