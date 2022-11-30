@@ -1,0 +1,6 @@
+.popup__checkbox-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: start;
+}
