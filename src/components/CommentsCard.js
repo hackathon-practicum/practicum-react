@@ -1,6 +1,7 @@
 export default function CommentsCard(props) {
     return (
         <div className={`comments__card ${props.class}`}>
+            {/*<iframe className="comments__iframe" src={video}></iframe>*/}
             <img className="comments__card-image" src={props.image} alt="#" />
             <h3 className="section__subtitle comments__title">{props.title}</h3>
             <p className="section__subtitle comments__subtitle">{props.subtitle}</p>
