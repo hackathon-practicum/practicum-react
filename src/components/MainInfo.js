@@ -1,31 +1,21 @@
 import { NavLink } from 'react-router-dom';
 import arrowWhite from '../images/arrowWhite.png';
-import girlPic from '../images/girlPic.png';
-import lineLeft from '../images/lineLeft.png';
-import star from '../images/Star.png';
-import man1 from '../images/man1.png';
-import lineRight from '../images/lineRight.png';
-import men from '../images/men.png';
-import lineBottom from '../images/lineBottom.png';
-import man2 from '../images/man2.png';
 
 export default function MainInfo() {
 
   return (
     <section className="main-info">
         <div className="main-info__text-container">
-          <div className='main-info__text-arrow-container'>
-            <h2 className="title title_main-info">Это</h2>
-            <div className="main-info__animation">
-              <img src={arrowWhite} alt="Стрелка направление" className='arrow'/>
-              <img src={arrowWhite} alt="Стрелка направление" className='arrow'/>
-              <img src={arrowWhite} alt="Стрелка направление" className='arrow'/>
-            </div>
-            <h2 className="title">чем работа</h2>
-          </div>
-          <h4 className="section__subtitle main-info__section__subtitle">
+        <h1 className="title title_main-info">
+          Это
+          <img src={arrowWhite} alt="Стрелка направление" className='arrow'/>
+          <img src={arrowWhite} alt="Стрелка направление" className='arrow'/>
+          <img src={arrowWhite} alt="Стрелка направление" className='arrow'/>
+          чем работа
+        </h1>
+          <p className="section__subtitle main-info__section__subtitle">
             Стань частью команды Практикума. Делись своим опытом и получай дополнительный доход
-          </h4>
+          </p>
           <NavLink to="#" className="button-cta main-info__button-cta">Начать делиться знаниями</NavLink>
         </div>
     </section>

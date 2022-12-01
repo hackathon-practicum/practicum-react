@@ -2,12 +2,11 @@
   display: flex;
   justify-content: center;
   max-width: 1440px;
-  height: 786px;
-
+  min-height: 786px;
   width: 100%;
   box-sizing: border-box;
   background-image: url('../../images/fon1.jpg');
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 0 0 30px 30px;
 }

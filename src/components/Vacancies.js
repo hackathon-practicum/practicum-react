@@ -71,35 +71,35 @@ export default function Vacancies() {
       <div className="vacancies__cards">
         {createCardsVacancies(cardDataReviewer)}
       </div>
-      <div className="contacts__wrapper vacancies__form">
+      <div className="vacancies__form">
         <div className="contacts__info">
-          <h2 className="contacts__title">Не нашли для себя подходящего предложения?</h2>
+          <h2 className="vacancies__form_title">Не нашли для себя подходящего предложения?</h2>
         </div>
         <div className="contacts__animation">
           <img
             src={arrowRight}
             alt="Стрелка направление"
-            className="contacts__arrow"
+            className="vacancies__arrow"
           />
           <img
             src={arrowRight}
             alt="Стрелка направление"
-            className="contacts__arrow"
+            className="vacancies__arrow"
           />
           <img
             src={arrowRight}
             alt="Стрелка направление"
-            className="contacts__arrow"
+            className="vacancies__arrow"
           />
           <img
             src={arrowRight}
             alt="Стрелка направление"
-            className="contacts__arrow"
+            className="vacancies__arrow"
           />
           <img
             src={arrowRight}
             alt="Стрелка направление"
-            className="contacts__arrow"
+            className="vacancies__arrow"
           />
         </div>
         <NavLink to="#" className="button-cta vacancies__button-cta">Рассказать о себе</NavLink>

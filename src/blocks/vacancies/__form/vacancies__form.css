@@ -1,3 +1,17 @@
 .vacancies__form {
   margin-top: 75px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  border-radius: 30px;
+}
+
+@media (max-width: 1000px) {
+  .vacancies__form {
+    flex-direction: column;
+    margin: 75px auto 0;
+    align-items: flex-start;
+  }
 }

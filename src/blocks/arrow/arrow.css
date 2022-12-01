@@ -1,8 +1,13 @@
 .arrow {
+  margin: 0 10px 0 0;
   width: 25px;
   height: 40px;
-  opacity: 0;
-  animation: slide 3s linear 1s infinite;
+  opacity: 1;
+  /*  animation: slide 3s linear 1s infinite; */
+}
+
+.arrow:first-of-type {
+  margin: 0 10px 0 10px;
 }
 
 @-webkit-keyframes slide {
