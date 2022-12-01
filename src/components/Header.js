@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__wrapper">
-        <a href="/#">
+        <a href="#">
           <img
             src={logo}
             alt="Логотип Яндекс-Практикум"
