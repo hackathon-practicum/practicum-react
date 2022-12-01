@@ -41,36 +41,38 @@ export default function Vacancies() {
 
   return (
     <section className="section vacancies">
-      <h2 className="section__title vacancies__title">Открытые предложения</h2>
-      <div className="vacancies__toggle">
-        <NavLink
-          to="#"
-          className={
-            isMentor
-              ? "vacancies__link vacancies__link_active"
-              : "vacancies__link"
-          }
-          onClick={handleChangeToogleVacancy}>
-          Для наставников
-        </NavLink>
-        <label className="vacancies__switch">
-          <input
-            type="checkbox"
-            className="vacancies__checkbox"
-            onClick={handleChangeToogleVacancy}
-          />
-          <span className="vacancies__slider" />
-        </label>
-        <NavLink
-          to="#"
-          className={
-            isMentor
-              ? "vacancies__link"
-              : "vacancies__link vacancies__link_active"
-          }
-          onClick={handleChangeToogleVacancy}>
-          Для ревьюверов
-        </NavLink>
+      <div className="vacancies__wrapper">
+        <h2 className="section__title vacancies__title">Открытые предложения</h2>
+        <div className="vacancies__toggle">
+          <NavLink
+              to="#"
+              className={
+                isMentor
+                    ? "vacancies__link vacancies__link_active"
+                    : "vacancies__link"
+              }
+              onClick={handleChangeToogleVacancy}>
+            Для наставников
+          </NavLink>
+          <label className="vacancies__switch">
+            <input
+                type="checkbox"
+                className="vacancies__checkbox"
+                onClick={handleChangeToogleVacancy}
+            />
+            <span className="vacancies__slider"/>
+          </label>
+          <NavLink
+              to="#"
+              className={
+                isMentor
+                    ? "vacancies__link"
+                    : "vacancies__link vacancies__link_active"
+              }
+              onClick={handleChangeToogleVacancy}>
+            Для ревьюверов
+          </NavLink>
+        </div>
       </div>
       <nav className="vacancies__nav">
         <ul className="vacancies__list">

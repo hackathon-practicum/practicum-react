@@ -10,3 +10,8 @@
     border-radius: 30px;
     overflow: hidden;
 }
+
+.comments__card:hover {
+    background-color: #EAEAEA;
+    transition: background-color .3s ease-out;
+}

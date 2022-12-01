@@ -1,16 +1,26 @@
 .contacts__wrapper {
   background-color: #FFFFFF;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 230px 230px;
+  gap: 20px;
+  justify-items: start;
   align-items: center;
   padding: 30px 40px;
   border-radius: 30px;
+  max-width: 1110px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1023px) {
   .contacts__wrapper {
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: flex-start;
+    grid-template-columns: 1fr 230px;
+  }
+}
+
+@media (max-width: 839px) {
+  .contacts__wrapper {
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 }

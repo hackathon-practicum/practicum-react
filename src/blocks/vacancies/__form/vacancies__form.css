@@ -6,6 +6,8 @@
   align-items: center;
   padding: 30px 40px;
   border-radius: 30px;
+  max-width: 1110px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1000px) {

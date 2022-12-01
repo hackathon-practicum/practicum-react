@@ -9,3 +9,10 @@
     line-height: 40px;
     color: #FFFFFF;
 }
+
+@media only screen and (max-width: 767px) {
+    .faculties__subtitle {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
