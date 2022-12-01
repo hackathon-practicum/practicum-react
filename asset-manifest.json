@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hackathon-practicum/practicum-react/static/css/main.75d7ba9d.css",
-    "main.js": "/hackathon-practicum/practicum-react/static/js/main.aeeeaf6b.js",
+    "main.js": "/hackathon-practicum/practicum-react/static/js/main.b86c7106.js",
     "static/js/787.4d275498.chunk.js": "/hackathon-practicum/practicum-react/static/js/787.4d275498.chunk.js",
     "static/media/comments_pic3.png": "/hackathon-practicum/practicum-react/static/media/comments_pic3.304d3f7652ee84c4dc18.png",
     "static/media/comments_pic2.png": "/hackathon-practicum/practicum-react/static/media/comments_pic2.1c93d0ecb371d023dd0d.png",
@@ -63,11 +63,11 @@
     "static/media/arrow_back.svg": "/hackathon-practicum/practicum-react/static/media/arrow_back.22a2d0b1ff455eb4e22b9b3f48bb530a.svg",
     "static/media/practicumAvatar.svg": "/hackathon-practicum/practicum-react/static/media/practicumAvatar.48d634526a05bff944e2c6f0e22dc4ba.svg",
     "main.75d7ba9d.css.map": "/hackathon-practicum/practicum-react/static/css/main.75d7ba9d.css.map",
-    "main.aeeeaf6b.js.map": "/hackathon-practicum/practicum-react/static/js/main.aeeeaf6b.js.map",
+    "main.b86c7106.js.map": "/hackathon-practicum/practicum-react/static/js/main.b86c7106.js.map",
     "787.4d275498.chunk.js.map": "/hackathon-practicum/practicum-react/static/js/787.4d275498.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75d7ba9d.css",
-    "static/js/main.aeeeaf6b.js"
+    "static/js/main.b86c7106.js"
   ]
 }
