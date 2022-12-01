@@ -10,7 +10,7 @@ import commentsPic4 from "../images/comments_pic4.png";
 export default function Comments() {
     return (
         <section className="comments section content__section">
-            <h2 className="section__title section__title_type_white">Отзывы команды</h2>
+            <h2 className="section__title section__title_type_white comments__section-title">Отзывы команды</h2>
             <div className="comments__cards-container">
                 <Swiper
                     slidesPerView={"auto"}
@@ -29,36 +29,39 @@ export default function Comments() {
                         <CommentsCard
                             image={commentsPic}
                             class={'comments__card_type_visible'}
-                            title={'Анна Симакова'}
-                            subtitle={'дизайн-ревьюер'}
-                            text={'Выбрала работу в Я.Практикуме, чтобы делиться знаниями и наслаждаться рабочим процессом.'}
+                            title={'Сергей Игнатьев'}
+                            subtitle={'код-ревьюер'}
+                            text={'Выбрал Практикум, \n' +
+                                'чтобы получить новый опыт и иметь дополнительный заработок.'}
                         />
                     </SwiperSlide>
                     <SwiperSlide>
                         <CommentsCard
                             image={commentsPic2}
                             class={'comments__card_type_visible'}
-                            title={'Сергей Игнатьев'}
-                            subtitle={'код-ревьюер'}
-                            text={'Выбрал работу в Я.Практикуме, чтобы получить новый опыт и иметь дополнительный заработок.'}
+                            title={'Данил Богданов'}
+                            subtitle={'наставник разработки'}
+                            text={'Выбрал Практикум, чтобы \n' + 'реализовать себя как профессионал и делиться опытом.'}
                         />
                     </SwiperSlide>
                     <SwiperSlide>
                         <CommentsCard
                             image={commentsPic3}
                             class={'comments__card_type_visible'}
-                            title={'Андрей Иванов'}
-                            subtitle={'код-ревьюер'}
-                            text={'Выбрал работу в Я.Практикуме, чтобы получить новый опыт и иметь дополнительный заработок.'}
+                            title={'Дмитрий Янов'}
+                            subtitle={'наставник разработки'}
+                            text={'Выбрал Практикум, \n' +
+                                'чтобы получить новый опыт и иметь дополнительный заработок.'}
                         />
                     </SwiperSlide>
                     <SwiperSlide>
                         <CommentsCard
                             image={commentsPic4}
                             class={'comments__card_type_visible'}
-                            title={'Даниил Богданчиков'}
-                            subtitle={'наставник разработки'}
-                            text={'Выбрал работу в Я.Практикуме, чтобы реализовать себя как профессионал.'}
+                            title={'Анна Симакова'}
+                            subtitle={'дизайн-ревьюер'}
+                            text={'Выбрала Практикум,\n' +
+                                'чтобы делиться знаниями и\n' + 'наслаждаться этим процессом.'}
                         />
                     </SwiperSlide>
                 </Swiper>
