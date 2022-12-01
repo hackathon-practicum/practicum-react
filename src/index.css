@@ -31,6 +31,7 @@
 @import url('./blocks/arrow/arrow.css');
 
 @import url('./blocks/main-info/main-info.css');
+@import url('./blocks/main-info/__wrapper/main-info__wrapper.css');
 @import url('./blocks/main-info/__text-container/main-info__text-container.css');
 @import url('./blocks/main-info/__section__subtitle/main-info__section__subtitle.css');
 @import url('./blocks/main-info/__button-cta/main-info__button-cta.css');
@@ -139,7 +140,7 @@
 @import url('./blocks/faculties/faculties.css');
 @import url('./blocks/faculties/__cards-container/faculties__cards-container.css');
 @import url('./blocks/faculties/__card/faculties__card.css');
-@import url('blocks/faculties/__card/_type/faculties__card_type_back.css');
+@import url('./blocks/faculties/__card/_type/faculties__card_type_back.css');
 @import url('./blocks/faculties/__subtitle/faculties__subtitle.css');
 @import url('./blocks/faculties/__button/faculties__button.css');
 

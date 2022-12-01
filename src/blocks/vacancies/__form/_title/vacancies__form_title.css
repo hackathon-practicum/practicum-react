@@ -10,5 +10,7 @@
 @media (max-width: 1000px) {
   .vacancies__form_title {
     text-align: center;
+    font-size: 28px;
+    line-height: 36px;
   }
 }

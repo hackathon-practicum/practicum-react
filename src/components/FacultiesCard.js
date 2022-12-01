@@ -15,9 +15,9 @@ export default function FacultiesCard(props) {
         className="faculties__card faculties__card_type_back">
         <p className="section__text">{props.text}</p>
         <p className="section__text">{props.subtext}</p>
-        <button className="button-cta faculties__button">
+        <a href="/#vacancy" className="button-cta faculties__button">
           Стать экспертом
-        </button>
+        </a>
       </div>
     </ReactCardFlip>
   );

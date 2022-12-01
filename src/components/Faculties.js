@@ -24,7 +24,7 @@ export default function Faculties() {
             dynamicBullets: true,
           }}
           loop={false}
-          className="my-swiper">
+          className="my-swiper faculties__swiper">
           <SwiperSlide>
             <FacultiesCard
               image={facultiesPicIT}
