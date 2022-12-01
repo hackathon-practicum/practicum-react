@@ -1,11 +1,21 @@
 # Проект: Hackathon Design & Web
 
+## Команда 6 "МегаМозги"
+
 [Ссылка на сайт](https://github.com/hackathon-practicum/practicum-react)
 
 ### Использовано:
 
 - React.js
-- Будет дополнено
+- HTML, CSS
+- Swiper.js
+
+### Ключевые точки ключевые точки для media queries
+
+- 1440px
+- 1130px
+- 700px
+- 400px
 
 # Getting Started with Create React App
 
