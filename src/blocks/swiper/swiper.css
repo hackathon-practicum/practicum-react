@@ -40,7 +40,7 @@
 }
 
 .my-swiper .swiper-button-prev {
-    left: 45%;
+    left: 38%;
     right: auto;
     top: 95%;
     bottom: 0;
@@ -54,7 +54,7 @@
     color: transparent;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     .my-swiper .swiper-button-prev {
         display: none;
     }
@@ -66,7 +66,7 @@
 }
 
 .my-swiper .swiper-button-next {
-    right: 45%;
+    right: 52%;
     left: auto;
     top: 95%;
     bottom: 0;
@@ -80,7 +80,7 @@
     color: transparent;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     .my-swiper .swiper-button-next {
         display: none;
     }
@@ -95,7 +95,7 @@
     bottom: 0;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1281px) {
     .my-swiper .swiper-pagination {
         display: none;
     }
