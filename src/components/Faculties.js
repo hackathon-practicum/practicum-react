@@ -1,6 +1,6 @@
 import React from "react";
 import FacultiesCard from "./FacultiesCard";
-import {FreeMode, Navigation} from "swiper";
+import {FreeMode, Navigation, Pagination} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import facultiesPicIT from "../images/faculties_it.svg";
 import facultiesPicDesign from "../images/faculties_design.svg";
@@ -17,8 +17,12 @@ export default function Faculties() {
                     slidesPerView={'auto'}
                     spaceBetween={30}
                     freeMode={true}
-                    modules={[FreeMode, Navigation]}
+                    modules={[FreeMode, Navigation, Pagination]}
                     navigation={true}
+                    pagination={{
+                        enabled: true,
+                        dynamicBullets: true
+                    }}
                     loop={false}
                     className="my-swiper"
                 >

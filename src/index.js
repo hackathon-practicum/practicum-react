@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 import './index.css';
 import App from '../src/components/App';
 import reportWebVitals from './reportWebVitals';

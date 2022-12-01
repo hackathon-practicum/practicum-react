@@ -1,4 +1,4 @@
-import {FreeMode, Navigation } from "swiper";
+import {FreeMode, Navigation, Pagination } from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import React from "react";
 import CommentsCard from "./CommentsCard";
@@ -16,8 +16,12 @@ export default function Comments() {
                     slidesPerView={"auto"}
                     spaceBetween={20}
                     freeMode={true}
-                    modules={[FreeMode, Navigation]}
+                    modules={[FreeMode, Navigation, Pagination]}
                     navigation={true}
+                    pagination={{
+                        enabled: true,
+                        dynamicBullets: true
+                    }}
                     loop={false}
                     className="my-swiper"
                 >

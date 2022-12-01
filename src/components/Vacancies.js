@@ -73,47 +73,47 @@ export default function Vacancies() {
             Для ревьюверов
           </NavLink>
         </div>
-      </div>
-      <nav className="vacancies__nav">
-        <ul className="vacancies__list">
-          <li>
-            <button
-              className={"vacancies__navlink"}
-              onClick={handleChangeCourse}>
-              <h2 className="vacancies__navlink_title">Программирование</h2>
-              <sup className="vacancies__counter vacancies__counter_active">
-                {isMentor ? cardDataMentor.length : cardDataReviewer.length}
-              </sup>
-            </button>
-          </li>
-          <li>
-            <button className="vacancies__navlink" onClick={handleChangeCourse}>
-              <h2 className="vacancies__navlink_title">Аналитика</h2>
-              <sup className="vacancies__counter">0</sup>
-            </button>
-          </li>
-          <li>
-            <button className="vacancies__navlink" onClick={handleChangeCourse}>
-              <h2 className="vacancies__navlink_title">Дизайн</h2>
-              <sup className="vacancies__counter">0</sup>
-            </button>
-          </li>
-          <li>
-            <button className="vacancies__navlink" onClick={handleChangeCourse}>
-              <h2 className="vacancies__navlink_title">Маркетинг</h2>
-              <sup className="vacancies__counter">0</sup>
-            </button>
-          </li>
-          <li>
-            <button className="vacancies__navlink" onClick={handleChangeCourse}>
-              <h2 className="vacancies__navlink_title">Менеджмент</h2>
-              <sup className="vacancies__counter">0</sup>
-            </button>
-          </li>
-        </ul>
-      </nav>
-      <div className="vacancies__cards">
-        {createCardsVacancies(isMentor ? cardDataMentor : cardDataReviewer)}
+        <nav className="vacancies__nav">
+          <ul className="vacancies__list">
+            <li>
+              <button
+                  className={"vacancies__navlink"}
+                  onClick={handleChangeCourse}>
+                <h2 className="vacancies__navlink_title">Программирование</h2>
+                <sup className="vacancies__counter vacancies__counter_active">
+                  {isMentor ? cardDataMentor.length : cardDataReviewer.length}
+                </sup>
+              </button>
+            </li>
+            <li>
+              <button className="vacancies__navlink" onClick={handleChangeCourse}>
+                <h2 className="vacancies__navlink_title">Аналитика</h2>
+                <sup className="vacancies__counter">0</sup>
+              </button>
+            </li>
+            <li>
+              <button className="vacancies__navlink" onClick={handleChangeCourse}>
+                <h2 className="vacancies__navlink_title">Дизайн</h2>
+                <sup className="vacancies__counter">0</sup>
+              </button>
+            </li>
+            <li>
+              <button className="vacancies__navlink" onClick={handleChangeCourse}>
+                <h2 className="vacancies__navlink_title">Маркетинг</h2>
+                <sup className="vacancies__counter">0</sup>
+              </button>
+            </li>
+            <li>
+              <button className="vacancies__navlink" onClick={handleChangeCourse}>
+                <h2 className="vacancies__navlink_title">Менеджмент</h2>
+                <sup className="vacancies__counter">0</sup>
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <div className="vacancies__cards">
+          {createCardsVacancies(isMentor ? cardDataMentor : cardDataReviewer)}
+        </div>
       </div>
       <div className="vacancies__form">
         <div className="contacts__info">
