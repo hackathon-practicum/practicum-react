@@ -28,7 +28,9 @@ export default function ChatBotWindow({
       }) : ""
 
   return (
-    <div className="section-chatbot__window">
+    <div
+      className= {counterQuestion > 0 ? "section-chatbot__window section-chatbot__window_active" : "section-chatbot__window"}
+    >
       <div className="section-chatbot__template">
         <div className="section-chatbot__admin-wrapper">
           <img

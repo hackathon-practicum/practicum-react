@@ -67,6 +67,7 @@
 
 @import url('./blocks/section-chatbot/section-chatbot.css');
 @import url('./blocks/section-chatbot/__window/section-chatbot__window.css');
+@import url('./blocks/section-chatbot/__window/_active/section-chatbot__window\ _active.css');
 @import url('./blocks/section-chatbot/__admin-wrapper/section-chatbot__admin-wrapper.css');
 @import url('./blocks/section-chatbot/__user-wrapper/section-chatbot__user-wrapper.css');
 @import url('./blocks/section-chatbot/__admin-avatar/section-chatbot__admin-avatar.css');

@@ -10,6 +10,6 @@
 @media (max-width: 840px) {
   .vacancies__list {
     flex-direction: column;
-    gap: 30px;
+    gap: 5px;
   }
 }

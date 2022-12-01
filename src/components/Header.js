@@ -16,7 +16,7 @@ export default function Header() {
                         <li><NavLink to="#" className="header__link">FAQ</NavLink></li>
                     </ul>
                 </nav>
-                <NavLink to="#" className="header__button header__button_type_mobile">Кого мы тщем</NavLink>
+                <NavLink to="#" className="header__button header__button_type_mobile">Кого мы ищем</NavLink>
             </div>
         </header>
     )
