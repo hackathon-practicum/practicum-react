@@ -1,0 +1,11 @@
+.faculties__section-title {
+    width: 86%;
+    padding-right: 14%;
+}
+
+@media screen and (max-width: 1280px) {
+    .faculties__section-title {
+        width: 95%;
+        padding-right: 5%;
+    }
+}
