@@ -3,4 +3,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 94px;
+}
+
+@media screen and (max-width: 1280px) {
+  .main-info__text-container {
+    margin-bottom: 154px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-info__text-container {
+    margin-bottom: 40px;
+    justify-content: flex-end;
+  }
 }
