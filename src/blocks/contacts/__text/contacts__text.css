@@ -6,7 +6,7 @@
   color: #000000;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 839px) {
   .contacts__text {
     margin-top: 8px;
     text-align: center;

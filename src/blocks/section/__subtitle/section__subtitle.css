@@ -10,3 +10,10 @@
     line-height: 32px;
     color: #000000;
 }
+
+@media (max-width: 767px) {
+    .section__subtitle {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

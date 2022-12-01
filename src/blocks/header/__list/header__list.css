@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 940px) {
   .header__list {
     display: none;
   }

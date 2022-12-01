@@ -6,6 +6,12 @@
 
 @media (max-width: 1320px) {
   .contacts {
-    padding: 75px 30px 130px;
+    padding: 75px 15px 130px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts {
+    padding: 80px 15px 72px;
   }
 }

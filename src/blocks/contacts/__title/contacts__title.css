@@ -1,8 +1,14 @@
 .contacts__title {
   margin: 0;
-  font-family: 'YS Display';
+  font-family: 'YS Display', 'Arial', sans-serif;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
   color: #000000;
+}
+
+@media (max-width: 839px) {
+  .contacts__title {
+    text-align: center;
+  }
 }
