@@ -5,6 +5,7 @@
   font-size: 20px;
   line-height: 28px;
   color: #B5B5B5;
+  cursor: default;
 }
 
 .vacancies__link:first-child {
