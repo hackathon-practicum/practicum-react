@@ -41,5 +41,5 @@ input:checked + .vacancies__slider:before {
 
 .vacancies__slider:before {
   border-radius: 50%;
-  background-color: #005CFF;
+  background-color: #000000;
 }
