@@ -2,6 +2,7 @@
   padding: 0 28px;
   border: 0;
   min-height: 60px;
+  min-width: 286px;
   margin: 45px auto 0;
 }
 
@@ -10,6 +11,7 @@
     margin-top: 270px;
   }
 }
+
 @media screen and (max-width: 700px) {
   .main-info__button-cta {
     margin-top: 350px;
@@ -18,7 +20,7 @@
 
 @media screen and (max-width: 600px) {
   .main-info__button-cta {
-    margin-top: 45px;
+    margin-top: 391px;
   }
 }
 
