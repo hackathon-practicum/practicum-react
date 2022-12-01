@@ -10,3 +10,16 @@
   line-height: 52px;
   color: #fff;
 }
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-family: 'YS Text', 'Arial', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title {
+    margin: auto 22px;
+  }
+}

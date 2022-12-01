@@ -6,7 +6,43 @@
   width: 100%;
   box-sizing: border-box;
   background-image: url('../../images/fon1.jpg');
-  background-size: 100% 100%;
+  background-size: 100%;
+  /* background-position: center; */
   background-repeat: no-repeat;
   border-radius: 0 0 30px 30px;
+  background-color: black;
+}
+
+@media screen and (max-width: 1280px) {
+  .main-info {
+    background-image: url('../../images/desktop1280.jpg');
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .main-info {
+    background-image: url('../../images/desktop1024.jpg');
+    min-height: 745px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-info {
+    background-image: url('../../images/tablet_main768.jpg');
+  }
+}
+
+/* @media screen and (max-width: 700px) {
+  .main-info {
+    background-image: url('../../images/tablet_main700.jpg');
+    min-height: 787px;
+  }
+} */
+
+@media screen and (max-width: 400px) {
+  .main-info {
+    background-image: url('../../images/mobileMain.jpg');
+    align-items: flex-end;
+    min-height: 707px;
+  }
 }
