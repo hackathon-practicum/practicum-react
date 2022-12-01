@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import arrowRight from '../images/arrowRight.png';
 
 export default function Roadmap() {
@@ -15,7 +14,7 @@ export default function Roadmap() {
         <img src={arrowRight} alt="Стрелка направление" className='roadmap__animation'/>
         <img src={arrowRight} alt="Стрелка направление" className='roadmap__animation'/>
         <img src={arrowRight} alt="Стрелка направление" className='roadmap__animation'/>
-        <p className="roadmap__text">Начните делиться знаниями со студентами Яндекс Практикума</p>
+        <p className="roadmap__text">Начните делиться знаниями со студентами</p>
       </div>
     </section>
   )

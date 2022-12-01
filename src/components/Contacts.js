@@ -3,7 +3,7 @@ import arrowRight from "../images/arrowRight.png";
 
 export default function Contacts() {
   return (
-    <section className="contacts section content__section">
+    <section className="contacts section content__section" id="contacts">
       <div className="contacts__wrapper">
         <div className="contacts__info">
           <h2 className="contacts__title">Останемся на связи?</h2>

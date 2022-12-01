@@ -12,6 +12,7 @@ export default function ChatBotWindow({
   recommendationJob,
   recommendationOptions,
   isMentorOrReviewer,
+  hadleChangeTasks
   }) {
 
     const recommendationItem =
@@ -25,10 +26,12 @@ export default function ChatBotWindow({
           />
           <p className="section-chatbox__recommendation-item" key={i+item[1]}>{item}</p>
         </div>)
-      }) : ""
+      }) : "";
 
   return (
-    <div className="section-chatbot__window">
+    <div
+      className= {counterQuestion > 0 ? "section-chatbot__window section-chatbot__window_active" : "section-chatbot__window"}
+    >
       <div className="section-chatbot__template">
         <div className="section-chatbot__admin-wrapper">
           <img
@@ -64,16 +67,16 @@ export default function ChatBotWindow({
             </div>
             <div className="section-chatbot__buttons-recomendation">
               <NavLink
-                to={isMentorOrReviewer ? "#" : "#"}
+                to={isMentorOrReviewer ? "/vacancy" : "/vacancy"}
                 type="button"
                 className="button-cta section-chatbot__button-cta">
                 Показать открытые предложения
               </NavLink>
-              <NavLink to="#" type="button" className="section-chatbot__button">
+              <button type="button" className="section-chatbot__button" onClick={hadleChangeTasks}>
                 {isMentorOrReviewer
                   ? "А что делает ревьювер?"
                   : "А что делает наставник?"}
-              </NavLink>
+              </button>
             </div>
           </div>
         ) : (

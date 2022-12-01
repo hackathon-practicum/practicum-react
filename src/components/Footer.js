@@ -10,12 +10,12 @@ export default function Footer() {
       <p className="footer__copyright">© 2022 АНО ДПО «ШАД», ООО «Яндекс»</p>
       <nav className="footer__nav">
         <ul className="footer__list">
-          <li><NavLink to="#" className="footer__link">Помощь</NavLink></li>
-          <li><NavLink to="#" className="footer__link">Вакансии</NavLink></li>
-          <li><NavLink to="#" className="footer__link">Отзывы</NavLink></li>
-          <li><NavLink to="#" className="footer__link">Лицензия</NavLink></li>
-          <li><NavLink to="#" className="footer__link">Правовая информация</NavLink></li>
-          <li><NavLink to="#" className="footer__link">Для работодателей</NavLink></li>
+          <li><a href="/#faq" className="footer__link">Помощь</a></li>
+          <li><a href="/#vacancy" className="footer__link">Вакансии</a></li>
+          <li><a href="/#comments" className="footer__link">Отзывы</a></li>
+          <li><a href="/#" className="footer__link">Лицензия</a></li>
+          <li><a href="/#" className="footer__link">Правовая информация</a></li>
+          <li><a href="/#contacts" className="footer__link">Для работодателей</a></li>
         </ul>
       </nav>
       <div className="footer__info">

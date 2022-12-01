@@ -5,7 +5,7 @@ import Accordion from "./Accordion"
 export default function Faq() {
 
   return (
-    <section className="section section-faq">
+    <section className="section section-faq" id="faq">
       <h2 className="section__title">Если остались вопросы</h2>
       <div className="section-faq__content">
         {cardDataFAQ.map((item) => (

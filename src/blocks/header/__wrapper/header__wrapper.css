@@ -1,15 +1,15 @@
 .header__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 19px 165px 19px;
-    max-width: 1110px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 165px 19px;
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1200px) {
-    .header__wrapper {
-        padding: 20px;
-    }
+  .header__wrapper {
+    padding: 20px;
+  }
 }

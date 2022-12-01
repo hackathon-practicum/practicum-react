@@ -4,8 +4,7 @@ import arrowBack from "../images/arrow_back_faculties.svg";
 import closeIcon from "../images/close_faculties.svg";
 
 export default function FacultiesCard(props) {
-    const [isFlipped, setIsFlipped] = useState(false);
-
+  const [isFlipped, setIsFlipped] = useState(false);
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div onClick={() => setIsFlipped(true)} className="faculties__card">

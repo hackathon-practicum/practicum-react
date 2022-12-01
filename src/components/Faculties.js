@@ -1,7 +1,7 @@
 import React from "react";
 import FacultiesCard from "./FacultiesCard";
-import {FreeMode, Navigation, Pagination} from "swiper";
-import {Swiper, SwiperSlide} from "swiper/react";
+import { FreeMode, Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import facultiesPicIT from "../images/faculties_it.svg";
 import facultiesPicDesign from "../images/faculties_design.svg";
 import facultiesPicMarketing from "../images/faculties_marketing.svg";

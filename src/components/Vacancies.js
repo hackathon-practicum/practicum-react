@@ -38,21 +38,20 @@ export default function Vacancies() {
   ];
 
   return (
-    <section className="section vacancies">
+    <section className="section vacancies" id="vacancy">
       <div className="vacancies__wrapper">
         <h2 className="section__title vacancies__title">
           Открытые предложения
         </h2>
         <div className="vacancies__toggle">
-          <NavLink
-            to="#"
+          <span
             className={
               isMentor
                 ? "vacancies__link vacancies__link_active"
                 : "vacancies__link"
             }>
-            Для наставников
-          </NavLink>
+            Наставники
+          </span>
           <label className="vacancies__switch">
             <input
               type="checkbox"
@@ -61,21 +60,20 @@ export default function Vacancies() {
             />
             <span className="vacancies__slider" />
           </label>
-          <NavLink
-            to="#"
+          <span
             className={
               isMentor
                 ? "vacancies__link"
                 : "vacancies__link vacancies__link_active"
             }>
-            Для ревьюверов
-          </NavLink>
+            Ревьюверы
+          </span>
         </div>
         <Tabs items={items} />
         <div className="vacancies__form">
           <div className="contacts__info">
             <h2 className="vacancies__form_title">
-              Не нашли для себя подходящего предложения?
+              Не нашли для себя подходящего&nbsp;предложения?
             </h2>
           </div>
           <div className="contacts__animation">
@@ -105,7 +103,7 @@ export default function Vacancies() {
               className="vacancies__arrow"
             />
           </div>
-          <NavLink to="#" className="button-cta vacancies__button-cta">
+          <NavLink to="/vacancy" className="button-cta vacancies__button-cta">
             Рассказать о себе
           </NavLink>
         </div>

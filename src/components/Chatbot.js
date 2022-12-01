@@ -12,7 +12,7 @@ export default function Chatbot() {
   const [recommendation, setRecommendation] = useState("");
   const [recommendationOptions, setRecommendationOptions] = useState("");
 
-  const isMentor = mentorCounter > reviewerCounter;
+  let isMentor = mentorCounter > reviewerCounter;
 
   function handleClickAnswer (e) {
     setAnswerOptions([]);
@@ -23,6 +23,14 @@ export default function Chatbot() {
       setMentorCounter(mentorCounter+1);
     }
     setCounterQuestion(counterQuestion+1);
+  }
+
+  function hadleChangeTasks () {
+    if (isMentor) {
+      setRecommendationOptions(Object.values(quizData[counterQuestion]?.reviewer.recommendation.info));
+    } else {
+      setRecommendationOptions(Object.values(quizData[counterQuestion]?.mentor.recommendation.info));
+    }
   }
 
   useEffect(()=>{
@@ -49,8 +57,8 @@ export default function Chatbot() {
   },[counterQuestion])
 
   return (
-    <section className="section section-chatbot">
-      <h2 className="section__title section-chatbot__title">
+    <section className="section section-chatbot" id="chatbot">
+      <h2 className="section__title section-chatbot__title" id="#chatbot">
         Какая роль вам больше подходит?
       </h2>
       <ChatBotWindow
@@ -63,6 +71,7 @@ export default function Chatbot() {
         recommendationJob={recommendation}
         recommendationOptions={recommendationOptions}
         isMentorOrReviewer = {isMentor}
+        hadleChangeTasks = {hadleChangeTasks}
       />
     </section>
   );

@@ -9,8 +9,8 @@ import commentsPic4 from "../images/comments_pic4.png";
 
 export default function Comments() {
     return (
-        <section className="comments section content__section">
-            <h2 className="section__title section__title_type_white comments__section-title">Отзывы команды</h2>
+        <section className="comments section content__section" id="description">
+            <h2 className="section__title section__title_type_white">Отзывы команды</h2>
             <div className="comments__cards-container">
                 <Swiper
                     slidesPerView={"auto"}

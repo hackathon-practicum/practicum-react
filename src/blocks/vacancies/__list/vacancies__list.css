@@ -7,9 +7,15 @@
   list-style: none;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 900px) {
+  .vacancies__list {
+    gap: 0;
+  }
+}
+
+@media (max-width: 800px) {
   .vacancies__list {
     flex-direction: column;
-    gap: 30px;
+    gap: 5px;
   }
 }
