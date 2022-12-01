@@ -6,14 +6,14 @@ import { useState } from "react";
 export default function Vacancies() {
   const [isMentor, setIsMentor] = useState(true);
   const [isActiveCourse, setIsActiveCourse] = useState("Программирование");
-  const [isActive,setIsActive] = useState(false)
+  const [isActive, setIsActive] = useState(false)
 
   function handleChangeToogleVacancy() {
     setIsMentor(!isMentor);
   }
 
   function handleChangeCourse(e) {
-    if (e.currentTarget.className === "vacancies__navlink") {
+    if (e.currentTarget.className === "vacancies__navlink" && e.currentTarget.children[0].textContent !== isActiveCourse) {
       e.currentTarget.className = "vacancies__navlink vacancies__navlink_active"
       setIsActiveCourse(e.currentTarget.children[0].textContent);
     } else {
@@ -21,8 +21,8 @@ export default function Vacancies() {
     }
   }
 
-  function checkActiveCourse (e) {
-    return e.currentTarget.children[0].textContent === isActiveCourse
+  function checkActiveCourse(){
+
   }
 
   function createCardsVacancies(data) {
