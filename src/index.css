@@ -46,9 +46,9 @@
 @import url('./blocks/vacancies/__slider/vacancies__slider.css');
 @import url('./blocks/vacancies/__link/vacancies__link.css');
 @import url('./blocks/vacancies/__link/_active/vacancies__link_active.css');
-@import url('./blocks/vacancies/__nav/vacancies__nav.css');
 @import url('./blocks/vacancies/__list/vacancies__list.css');
 @import url('./blocks/vacancies/__navlink/vacancies__navlink.css');
+@import url('./blocks/vacancies/__navlink/_title/vacancies__navlink_title.css');
 @import url('./blocks/vacancies/__navlink/_active/vacancies__navlink_active.css');
 @import url('./blocks/vacancies/__counter/vacancies__counter.css');
 @import url('./blocks/vacancies/__counter/_active/vacancies__counter_active.css');

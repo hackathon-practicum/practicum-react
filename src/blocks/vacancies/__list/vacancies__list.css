@@ -1,16 +1,10 @@
 .vacancies__list {
   display: flex;
-  margin: 25px 0 0 0;
+  margin: 25px auto 0;
   width: max-content;
   gap: 30px;
   padding: 0;
   list-style: none;
-}
-
-@media (max-width: 1130px) {
-  .vacancies__list {
-    gap: 10px;
-  }
 }
 
 @media (max-width: 840px) {
