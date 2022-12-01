@@ -26,6 +26,7 @@ export default function Tabs({ items }) {
             className={`vacancies__navlink ${i === active ? 'vacancies__navlink_active' : ''}`}
             onClick={openTab}
             data-index={i}
+            key={i}
           >
             <h2
             className = {i === active ? "vacancies__navlink_title vacancies__navlink_title_active" :"vacancies__navlink_title" }>
