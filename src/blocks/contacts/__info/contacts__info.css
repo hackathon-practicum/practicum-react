@@ -1,0 +1,10 @@
+.contacts__info {}
+
+@media (max-width: 1000px) {
+  .contacts__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}

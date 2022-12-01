@@ -7,8 +7,10 @@
   border-radius: 30px;
 }
 
-@media (max-width: 1320px) {
-  .contacts {
-    padding: 75px 30px 130px;
+@media (max-width: 1000px) {
+  .contacts__wrapper {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: flex-start;
   }
 }

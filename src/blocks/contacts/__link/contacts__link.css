@@ -7,4 +7,12 @@
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: 50%;
+  opacity: 1;
+  transition: all 1s linear;
+
+}
+
+.contacts__link:hover {
+  opacity: .5;
+  transition: all 1s linear;
 }
