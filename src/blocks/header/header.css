@@ -6,3 +6,9 @@
     padding: 20px;
   }
 }
+
+@media (max-width: 940px) {
+  .header {
+    background-color: #000000;
+  }
+}

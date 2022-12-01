@@ -14,3 +14,14 @@
     border: 1px solid rgba(180,178,178,1);
     color: #B5B2B1;
 }
+
+@media screen and (max-width: 767px) {
+    .button-cta_vacancy {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

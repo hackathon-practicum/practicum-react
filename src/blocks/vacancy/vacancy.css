@@ -3,4 +3,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1130px) {
+    .vacancy {
+        padding: 0 15px;
+    }
 }
