@@ -2,7 +2,7 @@
 
 ## Команда 6 "МегаМозги"
 
-[Ссылка на сайт](https://github.com/hackathon-practicum/practicum-react)
+[Ссылка на сайт](https://practicum-react-ivory.vercel.app/)
 
 ### Использовано:
 
@@ -16,6 +16,12 @@
 - 1130px
 - 700px
 - 400px
+
+### Для запуска
+
+-git clone
+-npm i
+-npm run start
 
 # Getting Started with Create React App
 
