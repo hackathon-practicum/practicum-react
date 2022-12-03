@@ -1,8 +1,0 @@
-.header__logo_type_desktop {
-}
-
-@media (max-width: 940px) {
-    .header__logo_type_desktop {
-        display: none;
-    }
-}
