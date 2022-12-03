@@ -1,9 +1,0 @@
-.section-chatbot__button-cta {
-  opacity: 1;
-  transition: all 1s linear;
-}
-
-.section-chatbot__button-cta:hover {
-  opacity: .3;
-  transition: all 1s linear;
-}
